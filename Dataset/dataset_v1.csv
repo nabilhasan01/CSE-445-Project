@@ -1,0 +1,1969 @@
+task_id,language,model_name,true_bug_type,true_failure_symptom,predicted_bug_type,diagnosis_match,code_length,fix_success
+Python/0,python,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,16,1
+Python/1,python,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,18,1
+Python/2,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,10,1
+Python/3,python,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,17,1
+Python/4,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,14,1
+Python/5,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,24,1
+Python/6,python,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,14,1
+Python/7,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,8,1
+Python/8,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,18,1
+Python/9,python,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,18,1
+Python/10,python,qwen2.5-coder:7b,missing logic,stackoverflow,missing logic,1,21,0
+Python/11,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,13,1
+Python/12,python,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,20,1
+Python/13,python,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,10,1
+Python/14,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,13,1
+Python/15,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,8,1
+Python/16,python,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,8,1
+Python/17,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,19,1
+Python/18,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,17,1
+Python/19,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,23,0
+Python/20,python,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,23,1
+Python/21,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,4,1
+Python/22,python,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,9,1
+Python/23,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,8,1
+Python/24,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,8,1
+Python/25,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,13,0
+Python/26,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,12,1
+Python/27,python,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,6,1
+Python/28,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,8,1
+Python/29,python,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,8,1
+Python/30,python,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,8,1
+Python/31,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,23,1
+Python/32,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,34,1
+Python/33,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,9,1
+Python/34,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,6,1
+Python/35,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,12,1
+Python/36,python,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,15,1
+Python/37,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,18,1
+Python/38,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,9,1
+Python/39,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,17,0
+Python/40,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,23,1
+Python/41,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,13,1
+Python/42,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,8,1
+Python/43,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,21,1
+Python/44,python,qwen2.5-coder:7b,operator misuse,infinite loop,operator misuse,1,16,1
+Python/45,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,6,1
+Python/46,python,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,24,1
+Python/47,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,12,1
+Python/48,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,16,1
+Python/49,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,17,1
+Python/50,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,5,1
+Python/51,python,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,17,1
+Python/52,python,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,11,1
+Python/53,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,8,1
+Python/54,python,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,17,1
+Python/55,python,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,14,1
+Python/56,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,22,1
+Python/57,python,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,12,1
+Python/58,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,14,1
+Python/59,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,21,1
+Python/60,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,14,1
+Python/61,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,22,1
+Python/62,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,10,1
+Python/63,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,21,1
+Python/64,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,4,0
+Python/65,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,14,1
+Python/66,python,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,17,1
+Python/67,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,6,1
+Python/68,python,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,7,1
+Python/69,python,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,22,1
+Python/70,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,7,0
+Python/71,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,19,1
+Python/72,python,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,11,1
+Python/73,python,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,6,1
+Python/74,python,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,13,0
+Python/75,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,24,0
+Python/76,python,qwen2.5-coder:7b,variable misuse,infinite loop,value misuse,0,18,1
+Python/77,python,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,16,0
+Python/78,python,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,7,1
+Python/79,python,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,13,1
+Python/80,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,8,1
+Python/81,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,30,1
+Python/82,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,8,1
+Python/83,python,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,7,1
+Python/84,python,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,20,1
+Python/85,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,10,1
+Python/86,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,14,1
+Python/87,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,3,1
+Python/88,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,18,1
+Python/89,python,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,21,1
+Python/90,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,15,1
+Python/91,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,4,0
+Python/92,python,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,25,1
+Python/93,python,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,18,0
+Python/94,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,28,1
+Python/95,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,34,1
+Python/96,python,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,21,1
+Python/97,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,2,1
+Python/98,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,16,1
+Python/99,python,qwen2.5-coder:7b,function misuse,incorrect output,variable misuse,0,13,1
+Python/100,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,2,0
+Python/101,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,22,0
+Python/102,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,16,1
+Python/103,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,17,1
+Python/104,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,17,1
+Python/105,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,18,1
+Python/106,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,20,1
+Python/107,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,37,0
+Python/108,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,8,1
+Python/109,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,9,0
+Python/110,python,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,25,1
+Python/111,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,15,1
+Python/112,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,3,1
+Python/113,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,6,1
+Python/114,python,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,18,1
+Python/115,python,qwen2.5-coder:7b,function misuse,incorrect output,value misuse,0,3,1
+Python/116,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,2,0
+Python/117,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,10,0
+Python/118,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,25,1
+Python/119,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,15,1
+Python/120,python,qwen2.5-coder:7b,excess logic,incorrect output,function misuse,0,7,0
+Python/121,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,2,1
+Python/122,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,2,1
+Python/123,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,28,0
+Python/124,python,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,38,0
+Python/125,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,18,1
+Python/126,python,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,8,0
+Python/127,python,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,38,1
+Python/128,python,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,15,1
+Python/129,python,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,28,1
+Python/130,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,28,0
+Python/131,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,19,1
+Python/132,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,17,1
+Python/133,python,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,5,0
+Python/134,python,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,17,1
+Python/135,python,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,8,1
+Python/136,python,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,17,1
+Python/137,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,19,1
+Python/138,python,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,8,1
+Python/139,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,20,1
+Python/140,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,21,1
+Python/141,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,29,1
+Python/142,python,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,20,1
+Python/143,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,29,0
+Python/144,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,21,1
+Python/145,python,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,20,1
+Python/146,python,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,10,1
+Python/147,python,qwen2.5-coder:7b,missing logic,incorrect output,excess logic,0,9,0
+Python/148,python,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,25,1
+Python/149,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,4,1
+Python/150,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,17,1
+Python/151,python,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,2,0
+Python/152,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,1,0
+Python/153,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,11,1
+Python/154,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,7,1
+Python/155,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,15,1
+Python/156,python,qwen2.5-coder:7b,missing logic,infinite loop,operator misuse,0,24,0
+Python/157,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,12,1
+Python/158,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,9,1
+Python/159,python,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,5,1
+Python/160,python,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,5,1
+Python/161,python,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,13,1
+Python/162,python,qwen2.5-coder:7b,function misuse,incorrect output,variable misuse,0,2,0
+Python/163,python,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,16,0
+CPP/0,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,15,1
+CPP/1,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,24,1
+CPP/2,cpp,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,6,1
+CPP/3,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,8,1
+CPP/4,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,17,1
+CPP/5,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,13,1
+CPP/6,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,25,1
+CPP/7,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,12,1
+CPP/8,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,13,0
+CPP/9,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,12,0
+CPP/10,cpp,qwen2.5-coder:7b,missing logic,stackoverflow,missing logic,1,33,0
+CPP/11,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,18,1
+CPP/12,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,12,1
+CPP/13,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,11,1
+CPP/14,cpp,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,13,1
+CPP/15,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,11,1
+CPP/16,cpp,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,19,1
+CPP/17,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,22,1
+CPP/18,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,11,1
+CPP/19,cpp,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,33,1
+CPP/20,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,19,1
+CPP/21,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,13,1
+CPP/22,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,17,0
+CPP/23,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,6,1
+CPP/24,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,9,1
+CPP/25,cpp,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,16,1
+CPP/26,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,23,0
+CPP/27,cpp,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,14,1
+CPP/28,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,11,1
+CPP/29,cpp,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,6,1
+CPP/30,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,10,1
+CPP/31,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,10,1
+CPP/32,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,43,0
+CPP/33,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,19,1
+CPP/34,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,9,1
+CPP/35,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,10,1
+CPP/36,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,18,1
+CPP/37,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,17,1
+CPP/38,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,32,0
+CPP/39,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,27,1
+CPP/40,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,7,1
+CPP/41,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,3,0
+CPP/42,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,8,0
+CPP/43,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,10,1
+CPP/44,cpp,qwen2.5-coder:7b,operator misuse,infinite loop,operator misuse,1,12,1
+CPP/45,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,6,1
+CPP/46,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,14,1
+CPP/47,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,5,0
+CPP/48,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,8,1
+CPP/49,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,9,1
+CPP/50,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,25,0
+CPP/51,cpp,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,15,0
+CPP/52,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,8,1
+CPP/53,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,7,1
+CPP/54,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,13,1
+CPP/55,cpp,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,13,1
+CPP/56,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,14,0
+CPP/57,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,13,0
+CPP/58,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,19,1
+CPP/59,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,11,0
+CPP/60,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,6,1
+CPP/61,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,14,1
+CPP/62,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,9,1
+CPP/63,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,15,1
+CPP/64,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,12,0
+CPP/65,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,13,0
+CPP/66,cpp,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,10,1
+CPP/67,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,28,1
+CPP/68,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,13,1
+CPP/69,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,14,1
+CPP/70,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,18,0
+CPP/71,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,10,1
+CPP/72,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,17,1
+CPP/73,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,12,1
+CPP/74,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,14,0
+CPP/75,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,25,0
+CPP/76,cpp,qwen2.5-coder:7b,variable misuse,infinite loop,missing logic,0,13,0
+CPP/77,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,8,1
+CPP/78,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,12,1
+CPP/79,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,14,1
+CPP/80,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,9,1
+CPP/81,cpp,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,23,0
+CPP/82,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,11,1
+CPP/83,cpp,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,6,0
+CPP/84,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,16,1
+CPP/85,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,9,1
+CPP/86,cpp,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,20,0
+CPP/87,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,19,1
+CPP/88,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,excess logic,0,15,1
+CPP/89,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,12,1
+CPP/90,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,14,1
+CPP/91,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,26,0
+CPP/92,cpp,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,10,1
+CPP/93,cpp,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,29,0
+CPP/94,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,26,1
+CPP/95,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,22,0
+CPP/96,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,19,1
+CPP/97,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,6,1
+CPP/98,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,8,1
+CPP/99,cpp,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,16,1
+CPP/100,cpp,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,11,0
+CPP/101,cpp,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,20,1
+CPP/102,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,6,0
+CPP/103,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,20,0
+CPP/104,cpp,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,20,1
+CPP/105,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,22,1
+CPP/106,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,16,1
+CPP/107,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,16,1
+CPP/108,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,23,0
+CPP/109,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,17,1
+CPP/110,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,23,1
+CPP/111,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,23,0
+CPP/112,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,15,1
+CPP/113,cpp,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,27,0
+CPP/114,cpp,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,13,1
+CPP/115,cpp,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,13,1
+CPP/116,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,34,1
+CPP/117,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,27,1
+CPP/118,cpp,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,20,1
+CPP/119,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,23,0
+CPP/120,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,10,0
+CPP/121,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,6,1
+CPP/122,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,7,1
+CPP/123,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,15,1
+CPP/124,cpp,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,32,0
+CPP/125,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,33,0
+CPP/126,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,12,1
+CPP/127,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,16,0
+CPP/128,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,13,1
+CPP/129,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,58,0
+CPP/130,cpp,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,12,0
+CPP/131,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,16,1
+CPP/132,cpp,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,15,0
+CPP/133,cpp,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,10,1
+CPP/134,cpp,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,12,1
+CPP/135,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,9,1
+CPP/136,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,29,0
+CPP/137,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,41,0
+CPP/138,cpp,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,7,1
+CPP/139,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,11,1
+CPP/140,cpp,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,23,0
+CPP/141,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,19,0
+CPP/142,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,13,1
+CPP/143,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,29,0
+CPP/144,cpp,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,21,1
+CPP/145,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,27,0
+CPP/146,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,14,1
+CPP/147,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,23,0
+CPP/148,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,18,1
+CPP/149,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,15,1
+CPP/150,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,11,1
+CPP/151,cpp,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,13,1
+CPP/152,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,6,1
+CPP/153,cpp,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,22,0
+CPP/154,cpp,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,10,1
+CPP/155,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,12,1
+CPP/156,cpp,qwen2.5-coder:7b,missing logic,infinite loop,operator misuse,0,14,0
+CPP/157,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,10,1
+CPP/158,cpp,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,20,1
+CPP/159,cpp,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,10,1
+CPP/160,cpp,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,42,1
+CPP/161,cpp,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,21,1
+CPP/162,cpp,qwen2.5-coder:7b,function misuse,incorrect output,value misuse,0,21,0
+CPP/163,cpp,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,17,0
+Java/0,java,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,21,1
+Java/1,java,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,34,1
+Java/2,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,14,1
+Java/3,java,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,27,1
+Java/4,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,26,1
+Java/5,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,26,1
+Java/6,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,33,1
+Java/7,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,21,1
+Java/8,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,23,1
+Java/9,java,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,28,1
+Java/10,java,qwen2.5-coder:7b,missing logic,stackoverflow,missing logic,1,45,1
+Java/11,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,22,1
+Java/12,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,27,1
+Java/13,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,25,1
+Java/14,java,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,18,1
+Java/15,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,22,1
+Java/16,java,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,19,1
+Java/17,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,30,1
+Java/18,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,26,1
+Java/19,java,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,47,1
+Java/20,java,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,35,1
+Java/21,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,20,1
+Java/22,java,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,21,1
+Java/23,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,15,1
+Java/24,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,18,1
+Java/25,java,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,29,1
+Java/26,java,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,19,1
+Java/27,java,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,22,1
+Java/28,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,15,1
+Java/29,java,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,16,1
+Java/30,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,16,1
+Java/31,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,33,1
+Java/32,java,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,45,1
+Java/33,java,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,27,1
+Java/34,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,16,1
+Java/35,java,qwen2.5-coder:7b,operator misuse,incorrect output,function misuse,0,15,1
+Java/36,java,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,28,1
+Java/37,java,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,26,1
+Java/38,java,qwen2.5-coder:7b,missing logic,incorrect output,function misuse,0,40,1
+Java/39,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,39,1
+Java/40,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,33,1
+Java/41,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,19,0
+Java/42,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,16,1
+Java/43,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,30,1
+Java/44,java,qwen2.5-coder:7b,operator misuse,infinite loop,operator misuse,1,24,1
+Java/45,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,13,1
+Java/46,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,35,1
+Java/47,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,21,1
+Java/48,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,28,1
+Java/49,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,25,1
+Java/50,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,26,0
+Java/51,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,29,0
+Java/52,java,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,20,1
+Java/53,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,15,1
+Java/54,java,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,31,1
+Java/55,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,23,1
+Java/56,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,32,1
+Java/57,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,20,1
+Java/58,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,20,1
+Java/59,java,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,30,1
+Java/60,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,25,1
+Java/61,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,32,1
+Java/62,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,21,1
+Java/63,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,31,1
+Java/64,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,28,0
+Java/65,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,23,0
+Java/66,java,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,26,1
+Java/67,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,28,1
+Java/68,java,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,59,1
+Java/69,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,29,1
+Java/70,java,qwen2.5-coder:7b,operator misuse,incorrect output,variable misuse,0,30,1
+Java/71,java,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,24,1
+Java/72,java,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,36,1
+Java/73,java,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,24,1
+Java/74,java,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,35,1
+Java/75,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,45,1
+Java/76,java,qwen2.5-coder:7b,variable misuse,infinite loop,missing logic,0,28,1
+Java/77,java,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,24,0
+Java/78,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,33,1
+Java/79,java,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,20,1
+Java/80,java,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,29,1
+Java/81,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,64,1
+Java/82,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,29,0
+Java/83,java,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,15,1
+Java/84,java,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,26,1
+Java/85,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,20,1
+Java/86,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,27,1
+Java/87,java,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,38,0
+Java/88,java,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,31,1
+Java/89,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,28,1
+Java/90,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,25,1
+Java/91,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,29,1
+Java/92,java,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,25,1
+Java/93,java,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,38,0
+Java/94,java,qwen2.5-coder:7b,operator misuse,incorrect output,variable misuse,0,47,1
+Java/95,java,qwen2.5-coder:7b,operator misuse,incorrect output,variable misuse,0,43,1
+Java/96,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,32,1
+Java/97,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,18,1
+Java/98,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,22,1
+Java/99,java,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,30,0
+Java/100,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,25,0
+Java/101,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,20,1
+Java/102,java,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,26,1
+Java/103,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,22,1
+Java/104,java,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,34,1
+Java/105,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,48,0
+Java/106,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,33,1
+Java/107,java,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,42,1
+Java/108,java,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,32,0
+Java/109,java,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,49,1
+Java/110,java,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,35,1
+Java/111,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,39,1
+Java/112,java,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,14,1
+Java/113,java,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,32,0
+Java/114,java,qwen2.5-coder:7b,function misuse,incorrect output,value misuse,0,26,1
+Java/115,java,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,46,1
+Java/116,java,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,33,1
+Java/117,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,34,1
+Java/118,java,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,33,1
+Java/119,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,40,1
+Java/120,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,37,1
+Java/121,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,22,1
+Java/122,java,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,25,1
+Java/123,java,qwen2.5-coder:7b,value misuse,incorrect output,logic misuse,0,39,1
+Java/124,java,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,58,1
+Java/125,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,30,1
+Java/126,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,33,0
+Java/127,java,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,34,0
+Java/128,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,27,1
+Java/129,java,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,76,0
+Java/130,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,36,0
+Java/131,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,28,1
+Java/132,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,36,1
+Java/133,java,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,22,1
+Java/134,java,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,25,1
+Java/135,java,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,25,1
+Java/136,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,21,1
+Java/137,java,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,40,1
+Java/138,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,15,1
+Java/139,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,25,1
+Java/140,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,40,1
+Java/141,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,35,1
+Java/142,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,28,1
+Java/143,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,46,1
+Java/144,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,24,1
+Java/145,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,41,1
+Java/146,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,26,1
+Java/147,java,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,35,1
+Java/148,java,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,33,1
+Java/149,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,31,1
+Java/150,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,24,1
+Java/151,java,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,23,1
+Java/152,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,12,1
+Java/153,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,34,1
+Java/154,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,24,0
+Java/155,java,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,23,1
+Java/156,java,qwen2.5-coder:7b,missing logic,infinite loop,operator misuse,0,30,1
+Java/157,java,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,24,1
+Java/158,java,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,37,0
+Java/159,java,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,40,1
+Java/160,java,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,67,0
+Java/161,java,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,33,0
+Java/162,java,qwen2.5-coder:7b,function misuse,incorrect output,value misuse,0,26,1
+Java/163,java,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,26,0
+JavaScript/0,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,11,1
+JavaScript/1,js,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,21,1
+JavaScript/2,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,3,1
+JavaScript/3,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,10,1
+JavaScript/4,js,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,9,1
+JavaScript/5,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,12,1
+JavaScript/6,js,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,17,1
+JavaScript/7,js,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,3,1
+JavaScript/8,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,8,1
+JavaScript/9,js,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,11,1
+JavaScript/10,js,qwen2.5-coder:7b,missing logic,stackoverflow,missing logic,1,12,0
+JavaScript/11,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,9,1
+JavaScript/12,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,10,1
+JavaScript/13,js,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,8,1
+JavaScript/14,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,7,1
+JavaScript/15,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,3,1
+JavaScript/16,js,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,3,1
+JavaScript/17,js,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,4,1
+JavaScript/18,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,9,1
+JavaScript/19,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,19,1
+JavaScript/20,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,18,1
+JavaScript/21,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,5,1
+JavaScript/22,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,3,1
+JavaScript/23,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,3,1
+JavaScript/24,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,5,1
+JavaScript/25,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,15,1
+JavaScript/26,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,11,1
+JavaScript/27,js,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,5,1
+JavaScript/28,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,3,1
+JavaScript/29,js,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,3,1
+JavaScript/30,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,3,1
+JavaScript/31,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,8,1
+JavaScript/32,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,15,1
+JavaScript/33,js,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,5,1
+JavaScript/34,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,3,1
+JavaScript/35,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,3,1
+JavaScript/36,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,14,1
+JavaScript/37,js,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,5,1
+JavaScript/38,js,qwen2.5-coder:7b,missing logic,incorrect output,function misuse,0,13,1
+JavaScript/39,js,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,20,0
+JavaScript/40,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,8,1
+JavaScript/41,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,3,1
+JavaScript/42,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,3,1
+JavaScript/43,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,7,1
+JavaScript/44,js,qwen2.5-coder:7b,operator misuse,infinite loop,operator misuse,1,8,1
+JavaScript/45,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,3,1
+JavaScript/46,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,11,0
+JavaScript/47,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,8,1
+JavaScript/48,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,6,1
+JavaScript/49,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,6,1
+JavaScript/50,js,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,5,1
+JavaScript/51,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,7,1
+JavaScript/52,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,6,1
+JavaScript/53,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,3,1
+JavaScript/54,js,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,13,1
+JavaScript/55,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,5,1
+JavaScript/56,js,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,12,1
+JavaScript/57,js,qwen2.5-coder:7b,operator misuse,incorrect output,value misuse,0,8,1
+JavaScript/58,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,7,1
+JavaScript/59,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,16,1
+JavaScript/60,js,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,3,1
+JavaScript/61,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,12,1
+JavaScript/62,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,3,1
+JavaScript/63,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,7,1
+JavaScript/64,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,7,1
+JavaScript/65,js,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,7,1
+JavaScript/66,js,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,7,1
+JavaScript/67,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,7,1
+JavaScript/68,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,6,1
+JavaScript/69,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,10,1
+JavaScript/70,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,9,0
+JavaScript/71,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,8,1
+JavaScript/72,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,12,1
+JavaScript/73,js,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,7,0
+JavaScript/74,js,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,8,1
+JavaScript/75,js,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,21,1
+JavaScript/76,js,qwen2.5-coder:7b,variable misuse,infinite loop,operator misuse,0,8,1
+JavaScript/77,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,4,1
+JavaScript/78,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,8,1
+JavaScript/79,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,3,1
+JavaScript/80,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,8,1
+JavaScript/81,js,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,34,1
+JavaScript/82,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,10,1
+JavaScript/83,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,8,1
+JavaScript/84,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,8,1
+JavaScript/85,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,9,1
+JavaScript/86,js,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,11,1
+JavaScript/87,js,qwen2.5-coder:7b,variable misuse,incorrect output,operator misuse,0,14,1
+JavaScript/88,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,16,1
+JavaScript/89,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,9,1
+JavaScript/90,js,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,16,1
+JavaScript/91,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,10,1
+JavaScript/92,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,6,1
+JavaScript/93,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,14,1
+JavaScript/94,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,21,1
+JavaScript/95,js,qwen2.5-coder:7b,operator misuse,incorrect output,missing logic,0,16,1
+JavaScript/96,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,11,1
+JavaScript/97,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,5,1
+JavaScript/98,js,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,9,1
+JavaScript/99,js,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,7,1
+JavaScript/100,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,9,1
+JavaScript/101,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,4,1
+JavaScript/102,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,11,1
+JavaScript/103,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,5,1
+JavaScript/104,js,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,19,1
+JavaScript/105,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,16,1
+JavaScript/106,js,qwen2.5-coder:7b,variable misuse,incorrect output,variable misuse,1,15,1
+JavaScript/107,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,19,1
+JavaScript/108,js,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,19,1
+JavaScript/109,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,23,1
+JavaScript/110,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,6,1
+JavaScript/111,js,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,23,1
+JavaScript/112,js,qwen2.5-coder:7b,operator misuse,incorrect output,variable misuse,0,22,1
+JavaScript/113,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,15,1
+JavaScript/114,js,qwen2.5-coder:7b,function misuse,incorrect output,value misuse,0,11,1
+JavaScript/115,js,qwen2.5-coder:7b,function misuse,incorrect output,missing logic,0,14,1
+JavaScript/116,js,qwen2.5-coder:7b,variable misuse,incorrect output,value misuse,0,27,1
+JavaScript/117,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,15,1
+JavaScript/118,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,17,1
+JavaScript/119,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,33,1
+JavaScript/120,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,20,1
+JavaScript/121,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,9,1
+JavaScript/122,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,7,1
+JavaScript/123,js,qwen2.5-coder:7b,value misuse,incorrect output,value misuse,1,12,1
+JavaScript/124,js,qwen2.5-coder:7b,variable misuse,incorrect output,missing logic,0,11,1
+JavaScript/125,js,qwen2.5-coder:7b,value misuse,incorrect output,missing logic,0,20,1
+JavaScript/126,js,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,16,1
+JavaScript/127,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,10,1
+JavaScript/128,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,11,1
+JavaScript/129,js,qwen2.5-coder:7b,value misuse,incorrect output,variable misuse,0,23,0
+JavaScript/130,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,13,1
+JavaScript/131,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,13,1
+JavaScript/132,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,24,1
+JavaScript/133,js,qwen2.5-coder:7b,operator misuse,incorrect output,operator misuse,1,12,1
+JavaScript/134,js,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,11,1
+JavaScript/135,js,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,7,1
+JavaScript/136,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,17,1
+JavaScript/137,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,9,1
+JavaScript/138,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,3,1
+JavaScript/139,js,qwen2.5-coder:7b,excess logic,incorrect output,value misuse,0,9,1
+JavaScript/140,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,27,1
+JavaScript/141,js,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,15,1
+JavaScript/142,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,13,1
+JavaScript/143,js,qwen2.5-coder:7b,missing logic,incorrect output,operator misuse,0,15,1
+JavaScript/144,js,qwen2.5-coder:7b,excess logic,incorrect output,variable misuse,0,7,1
+JavaScript/145,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,10,1
+JavaScript/146,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,11,1
+JavaScript/147,js,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,15,1
+JavaScript/148,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,20,1
+JavaScript/149,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,9,1
+JavaScript/150,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,8,1
+JavaScript/151,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,9,1
+JavaScript/152,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,6,1
+JavaScript/153,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,21,1
+JavaScript/154,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,14,1
+JavaScript/155,js,qwen2.5-coder:7b,missing logic,incorrect output,value misuse,0,11,1
+JavaScript/156,js,qwen2.5-coder:7b,missing logic,infinite loop,missing logic,1,14,1
+JavaScript/157,js,qwen2.5-coder:7b,missing logic,incorrect output,missing logic,1,4,1
+JavaScript/158,js,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,13,1
+JavaScript/159,js,qwen2.5-coder:7b,excess logic,incorrect output,operator misuse,0,6,1
+JavaScript/160,js,qwen2.5-coder:7b,excess logic,incorrect output,missing logic,0,54,1
+JavaScript/161,js,qwen2.5-coder:7b,missing logic,incorrect output,variable misuse,0,21,1
+JavaScript/162,js,qwen2.5-coder:7b,function misuse,incorrect output,operator misuse,0,5,0
+JavaScript/163,js,qwen2.5-coder:7b,value misuse,incorrect output,operator misuse,0,12,1
+Python/0,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,17,1
+Python/1,python,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,27,0
+Python/2,python,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,10,1
+Python/3,python,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,19,1
+Python/4,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,1,0
+Python/5,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,21,1
+Python/6,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,11,0
+Python/7,python,deepseek-coder:6.7b,variable misuse,incorrect output,logic error,0,1,0
+Python/8,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,17,1
+Python/9,python,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,19,1
+Python/10,python,deepseek-coder:6.7b,missing logic,stackoverflow,function misuse,0,5,0
+Python/11,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,20,0
+Python/12,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,21,1
+Python/13,python,deepseek-coder:6.7b,variable misuse,incorrect output,excess logic,0,10,1
+Python/14,python,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,14,0
+Python/15,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,8,1
+Python/16,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,10,1
+Python/17,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,7,0
+Python/18,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,16,1
+Python/19,python,deepseek-coder:6.7b,missing logic,incorrect output,function misuse,0,26,0
+Python/20,python,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,22,1
+Python/21,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,11,1
+Python/22,python,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,11,1
+Python/23,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+Python/24,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,8,0
+Python/25,python,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,25,1
+Python/26,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,11,1
+Python/27,python,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,12,1
+Python/28,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,10,1
+Python/29,python,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,10,1
+Python/30,python,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,8,1
+Python/31,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,23,1
+Python/32,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,33,0
+Python/33,python,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,13,0
+Python/34,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,6,1
+Python/35,python,deepseek-coder:6.7b,operator misuse,incorrect output,logic error,0,1,0
+Python/36,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,18,1
+Python/37,python,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,13,1
+Python/38,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,20,1
+Python/39,python,deepseek-coder:6.7b,value misuse,incorrect output,excess logic,0,20,1
+Python/40,python,deepseek-coder:6.7b,value misuse,incorrect output,excess logic,0,7,1
+Python/41,python,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,18,0
+Python/42,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,8,1
+Python/43,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,21,1
+Python/44,python,deepseek-coder:6.7b,operator misuse,infinite loop,logic,0,1,0
+Python/45,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,6,1
+Python/46,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,9,1
+Python/47,python,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,1,0
+Python/48,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,16,1
+Python/49,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,17,0
+Python/50,python,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,11,1
+Python/51,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,17,0
+Python/52,python,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,11,1
+Python/53,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,8,1
+Python/54,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+Python/55,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,14,1
+Python/56,python,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,22,1
+Python/57,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,10,1
+Python/58,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,13,1
+Python/59,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,14,1
+Python/60,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+Python/61,python,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,1,0
+Python/62,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,13,0
+Python/63,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,10,1
+Python/64,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+Python/65,python,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,15,0
+Python/66,python,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,17,1
+Python/67,python,deepseek-coder:6.7b,value misuse,incorrect output,function misuse,0,16,0
+Python/68,python,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,8,1
+Python/69,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,22,1
+Python/70,python,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,1,0
+Python/71,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+Python/72,python,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,11,1
+Python/73,python,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,11,1
+Python/74,python,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,27,1
+Python/75,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,15,0
+Python/76,python,deepseek-coder:6.7b,variable misuse,infinite loop,unknown,0,19,1
+Python/77,python,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,6,0
+Python/78,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,7,0
+Python/79,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,7,0
+Python/80,python,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,8,1
+Python/81,python,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,1,0
+Python/82,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,20,1
+Python/83,python,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,1,0
+Python/84,python,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,1,0
+Python/85,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,7,0
+Python/86,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,22,1
+Python/87,python,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,5,1
+Python/88,python,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,7,0
+Python/89,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse**,1,9,0
+Python/90,python,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+Python/91,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,16,0
+Python/92,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,5,1
+Python/93,python,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,18,0
+Python/94,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,26,0
+Python/95,python,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,22,1
+Python/96,python,deepseek-coder:6.7b,variable misuse,incorrect output,excess logic,0,21,1
+Python/97,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,12,1
+Python/98,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,14,1
+Python/99,python,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,35,0
+Python/100,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,11,1
+Python/101,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,7,0
+Python/102,python,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,20,1
+Python/103,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,18,1
+Python/104,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,17,1
+Python/105,python,deepseek-coder:6.7b,missing logic,incorrect output,variable and function misuse,0,1,0
+Python/106,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,14,1
+Python/107,python,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,13,1
+Python/108,python,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,1,0
+Python/109,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,2,0
+Python/110,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,25,0
+Python/111,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+Python/112,python,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,1,0
+Python/113,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,10,0
+Python/114,python,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,19,0
+Python/115,python,deepseek-coder:6.7b,function misuse,incorrect output,value misuse,0,1,0
+Python/116,python,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,12,1
+Python/117,python,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,10,1
+Python/118,python,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,10,1
+Python/119,python,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,1,0
+Python/120,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,5,1
+Python/121,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,10,0
+Python/122,python,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,1,0
+Python/123,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,27,0
+Python/124,python,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,27,0
+Python/125,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,16,0
+Python/126,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,12,0
+Python/127,python,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,18,1
+Python/128,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,4,0
+Python/129,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,19,0
+Python/130,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,10,0
+Python/131,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,1,0
+Python/132,python,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,14,0
+Python/133,python,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,17,1
+Python/134,python,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,16,1
+Python/135,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,17,0
+Python/136,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,21,1
+Python/137,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,1,0
+Python/138,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,3,1
+Python/139,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,19,1
+Python/140,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,21,0
+Python/141,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,36,1
+Python/142,python,deepseek-coder:6.7b,missing logic,incorrect output,excess logic,0,1,0
+Python/143,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,34,1
+Python/144,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,6,0
+Python/145,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,9,1
+Python/146,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,1,0
+Python/147,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,9,1
+Python/148,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,10,1
+Python/149,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,28,0
+Python/150,python,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,14,1
+Python/151,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,14,0
+Python/152,python,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,2,1
+Python/153,python,deepseek-coder:6.7b,missing logic,incorrect output,variable misuse,0,28,1
+Python/154,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,8,0
+Python/155,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,15,1
+Python/156,python,deepseek-coder:6.7b,missing logic,infinite loop,unknown,0,13,1
+Python/157,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,16,1
+Python/158,python,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,12,0
+Python/159,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,41,0
+Python/160,python,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,30,1
+Python/161,python,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,1,0
+Python/162,python,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,10,1
+Python/163,python,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,15,1
+CPP/0,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,22,0
+CPP/1,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,27,0
+CPP/2,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,7,0
+CPP/3,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,logical error,0,1,0
+CPP/4,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,1,0
+CPP/5,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,15,1
+CPP/6,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,1,0
+CPP/7,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,1,0
+CPP/8,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+CPP/9,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,1,0
+CPP/10,cpp,deepseek-coder:6.7b,missing logic,stackoverflow,value misuse,0,16,0
+CPP/11,cpp,deepseek-coder:6.7b,value misuse,incorrect output,excess logic,0,14,1
+CPP/12,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,13,1
+CPP/13,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,1,0
+CPP/14,cpp,deepseek-coder:6.7b,excess logic,incorrect output,variable misuse,0,1,0
+CPP/15,cpp,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,13,1
+CPP/16,cpp,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+CPP/17,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,26,0
+CPP/18,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,13,1
+CPP/19,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,29,0
+CPP/20,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,22,0
+CPP/21,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,16,1
+CPP/22,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,1,0
+CPP/23,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,7,0
+CPP/24,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,excess logic,0,18,0
+CPP/25,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,14,1
+CPP/26,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,13,1
+CPP/27,cpp,deepseek-coder:6.7b,function misuse,incorrect output,operator misuse,0,1,0
+CPP/28,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,11,1
+CPP/29,cpp,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,11,1
+CPP/30,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,9,0
+CPP/31,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,9,1
+CPP/32,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,32,0
+CPP/33,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,23,1
+CPP/34,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,9,0
+CPP/35,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,19,1
+CPP/36,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,operator misuse,1,1,0
+CPP/37,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,1,0
+CPP/38,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,30,0
+CPP/39,cpp,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,26,0
+CPP/40,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,11,1
+CPP/41,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,7,0
+CPP/42,cpp,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+CPP/43,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,15,1
+CPP/44,cpp,deepseek-coder:6.7b,operator misuse,infinite loop,unknown,0,12,1
+CPP/45,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,1,0
+CPP/46,cpp,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,1,0
+CPP/47,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,10,1
+CPP/48,cpp,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,8,0
+CPP/49,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+CPP/50,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,14,0
+CPP/51,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,13,0
+CPP/52,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,9,1
+CPP/53,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,6,0
+CPP/54,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,15,0
+CPP/55,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,10,1
+CPP/56,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,13,0
+CPP/57,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,14,1
+CPP/58,cpp,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,17,1
+CPP/59,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,operator misuse,0,11,1
+CPP/60,cpp,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+CPP/61,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,13,1
+CPP/62,cpp,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,14,1
+CPP/63,cpp,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,12,0
+CPP/64,cpp,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,1,0
+CPP/65,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,14,1
+CPP/66,cpp,deepseek-coder:6.7b,function misuse,incorrect output,value misuse,0,10,1
+CPP/67,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,22,1
+CPP/68,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,1,0
+CPP/69,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+CPP/70,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,14,0
+CPP/71,cpp,deepseek-coder:6.7b,missing logic,incorrect output,excess logic,0,10,1
+CPP/72,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,1,0
+CPP/73,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,10,0
+CPP/74,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,14,0
+CPP/75,cpp,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,1,0
+CPP/76,cpp,deepseek-coder:6.7b,variable misuse,infinite loop,excess logic,0,1,0
+CPP/77,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,10,1
+CPP/78,cpp,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,1,0
+CPP/79,cpp,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+CPP/80,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,10,1
+CPP/81,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,25,0
+CPP/82,cpp,deepseek-coder:6.7b,value misuse,incorrect output,logic misuse,0,13,1
+CPP/83,cpp,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,15,0
+CPP/84,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,operator misuse,1,1,0
+CPP/85,cpp,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,1,0
+CPP/86,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,19,0
+CPP/87,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,1,0
+CPP/88,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,4,0
+CPP/89,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,13,0
+CPP/90,cpp,deepseek-coder:6.7b,value misuse,incorrect output,excess logic,0,20,0
+CPP/91,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+CPP/92,cpp,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,8,0
+CPP/93,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,51,1
+CPP/94,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,28,0
+CPP/95,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,operator misuse,1,23,0
+CPP/96,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,30,1
+CPP/97,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,8,1
+CPP/98,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,12,0
+CPP/99,cpp,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,8,0
+CPP/100,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,10,0
+CPP/101,cpp,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,18,0
+CPP/102,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,4,0
+CPP/103,cpp,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+CPP/104,cpp,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,18,1
+CPP/105,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,14,0
+CPP/106,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,20,0
+CPP/107,cpp,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,15,1
+CPP/108,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,28,0
+CPP/109,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,12,0
+CPP/110,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,operator misuse,0,2,0
+CPP/111,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,19,1
+CPP/112,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,1,0
+CPP/113,cpp,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,27,0
+CPP/114,cpp,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,10,0
+CPP/115,cpp,deepseek-coder:6.7b,function misuse,incorrect output,value misuse,0,16,1
+CPP/116,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,25,0
+CPP/117,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,1,0
+CPP/118,cpp,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,1,0
+CPP/119,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+CPP/120,cpp,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,10,0
+CPP/121,cpp,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,1,0
+CPP/122,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,11,0
+CPP/123,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,18,0
+CPP/124,cpp,deepseek-coder:6.7b,variable misuse,incorrect output,operator misuse,0,1,0
+CPP/125,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,48,0
+CPP/126,cpp,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,11,0
+CPP/127,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,17,1
+CPP/128,cpp,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,1,0
+CPP/129,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,30,0
+CPP/130,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,13,0
+CPP/131,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,16,1
+CPP/132,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,17,0
+CPP/133,cpp,deepseek-coder:6.7b,operator misuse,incorrect output,logic error,0,1,0
+CPP/134,cpp,deepseek-coder:6.7b,function misuse,incorrect output,value misuse,0,12,1
+CPP/135,cpp,deepseek-coder:6.7b,excess logic,incorrect output,logic error,0,1,0
+CPP/136,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,12,0
+CPP/137,cpp,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,41,0
+CPP/138,cpp,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,1,0
+CPP/139,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,11,1
+CPP/140,cpp,deepseek-coder:6.7b,excess logic,incorrect output,variable misuse,0,1,0
+CPP/141,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,18,0
+CPP/142,cpp,deepseek-coder:6.7b,missing logic,incorrect output,excess logic,0,1,0
+CPP/143,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,34,0
+CPP/144,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,21,1
+CPP/145,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,29,0
+CPP/146,cpp,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,19,1
+CPP/147,cpp,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,1,0
+CPP/148,cpp,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,25,1
+CPP/149,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,24,0
+CPP/150,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,11,1
+CPP/151,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,13,1
+CPP/152,cpp,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,1,0
+CPP/153,cpp,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,24,0
+CPP/154,cpp,deepseek-coder:6.7b,value misuse,incorrect output,excess logic,0,16,1
+CPP/155,cpp,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+CPP/156,cpp,deepseek-coder:6.7b,missing logic,infinite loop,value misuse,0,20,0
+CPP/157,cpp,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,14,0
+CPP/158,cpp,deepseek-coder:6.7b,missing logic,incorrect output,variable misuse,0,23,1
+CPP/159,cpp,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,6,0
+CPP/160,cpp,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,54,0
+CPP/161,cpp,deepseek-coder:6.7b,missing logic,incorrect output,variable misuse,0,1,0
+CPP/162,cpp,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,24,0
+CPP/163,cpp,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,20,0
+Java/0,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,15,0
+Java/1,java,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,26,0
+Java/2,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,8,1
+Java/3,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,17,1
+Java/4,java,deepseek-coder:6.7b,variable misuse,incorrect output,operator misuse,0,1,0
+Java/5,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,10,1
+Java/6,java,deepseek-coder:6.7b,variable misuse,incorrect output,excess logic,0,15,0
+Java/7,java,deepseek-coder:6.7b,variable misuse,incorrect output,operator misuse,0,13,1
+Java/8,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,15,1
+Java/9,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,22,1
+Java/10,java,deepseek-coder:6.7b,missing logic,stackoverflow,variable misuse,0,3,0
+Java/11,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,20,1
+Java/12,java,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,17,1
+Java/13,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,23,1
+Java/14,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,14,1
+Java/15,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,21,0
+Java/16,java,deepseek-coder:6.7b,missing logic,incorrect output,expected behavior,0,13,0
+Java/17,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,23,1
+Java/18,java,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,16,1
+Java/19,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,40,1
+Java/20,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,22,1
+Java/21,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,15,1
+Java/22,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,15,1
+Java/23,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,14,1
+Java/24,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,18,1
+Java/25,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,18,1
+Java/26,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,13,1
+Java/27,java,deepseek-coder:6.7b,function misuse,incorrect output,operator misuse,0,16,0
+Java/28,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,1,0
+Java/29,java,deepseek-coder:6.7b,function misuse,incorrect output,operator misuse,0,9,1
+Java/30,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,9,0
+Java/31,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,33,0
+Java/32,java,deepseek-coder:6.7b,variable misuse,incorrect output,operator misuse,0,14,0
+Java/33,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,17,1
+Java/34,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,11,1
+Java/35,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,16,1
+Java/36,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,26,1
+Java/37,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,21,1
+Java/38,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+Java/39,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,26,1
+Java/40,java,deepseek-coder:6.7b,value misuse,incorrect output,excess logic,0,20,1
+Java/41,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,7,0
+Java/42,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,9,1
+Java/43,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,18,1
+Java/44,java,deepseek-coder:6.7b,operator misuse,infinite loop,unknown,0,24,1
+Java/45,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,14,1
+Java/46,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,26,1
+Java/47,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,14,0
+Java/48,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,25,0
+Java/49,java,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,7,1
+Java/50,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,26,1
+Java/51,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,14,0
+Java/52,java,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,1,0
+Java/53,java,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,1,0
+Java/54,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,16,1
+Java/55,java,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,31,1
+Java/56,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,19,0
+Java/57,java,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,1,0
+Java/58,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,24,1
+Java/59,java,deepseek-coder:6.7b,variable misuse,incorrect output,excess logic,0,15,1
+Java/60,java,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,7,1
+Java/61,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,19,1
+Java/62,java,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,12,1
+Java/63,java,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,1,0
+Java/64,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,15,0
+Java/65,java,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,13,1
+Java/66,java,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,14,1
+Java/67,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+Java/68,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,27,1
+Java/69,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,12,0
+Java/70,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,33,0
+Java/71,java,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,13,1
+Java/72,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,20,0
+Java/73,java,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,14,1
+Java/74,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,22,1
+Java/75,java,deepseek-coder:6.7b,value misuse,incorrect output,excess logic </h1>,0,14,0
+Java/76,java,deepseek-coder:6.7b,variable misuse,infinite loop,value misuse,0,19,0
+Java/77,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+Java/78,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,15,0
+Java/79,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,3,1
+Java/80,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,17,0
+Java/81,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,38,1
+Java/82,java,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,1,0
+Java/83,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,15,0
+Java/84,java,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,12,1
+Java/85,java,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,14,1
+Java/86,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,4,0
+Java/87,java,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,18,0
+Java/88,java,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,17,0
+Java/89,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,17,1
+Java/90,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,15,1
+Java/91,java,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+Java/92,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,11,0
+Java/93,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+Java/94,java,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,39,0
+Java/95,java,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,42,0
+Java/96,java,deepseek-coder:6.7b,variable misuse,incorrect output,excess logic,0,1,0
+Java/97,java,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,1,0
+Java/98,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,15,1
+Java/99,java,deepseek-coder:6.7b,function misuse,incorrect output,operator misuse,0,1,0
+Java/100,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,16,1
+Java/101,java,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,24,1
+Java/102,java,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,1,0
+Java/103,java,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,7,1
+Java/104,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,17,1
+Java/105,java,deepseek-coder:6.7b,missing logic,incorrect output,variable misuse,0,1,0
+Java/106,java,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,1,0
+Java/107,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,23,0
+Java/108,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,30,0
+Java/109,java,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,1,0
+Java/110,java,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,22,0
+Java/111,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,22,0
+Java/112,java,deepseek-coder:6.7b,operator misuse,incorrect output,operator misuse,1,2,0
+Java/113,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,19,0
+Java/114,java,deepseek-coder:6.7b,function misuse,incorrect output,value misuse,0,1,0
+Java/115,java,deepseek-coder:6.7b,function misuse,incorrect output,operator misuse,0,12,1
+Java/116,java,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse**,0,24,0
+Java/117,java,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,16,1
+Java/118,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,18,0
+Java/119,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,25,0
+Java/120,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,13,0
+Java/121,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,14,1
+Java/122,java,deepseek-coder:6.7b,missing logic,incorrect output,function misuse,0,1,0
+Java/123,java,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,17,1
+Java/124,java,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,35,1
+Java/125,java,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,21,1
+Java/126,java,deepseek-coder:6.7b,missing logic,incorrect output,excess logic,0,1,0
+Java/127,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,29,1
+Java/128,java,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,16,0
+Java/129,java,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+Java/130,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,22,0
+Java/131,java,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,20,1
+Java/132,java,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,15,0
+Java/133,java,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,13,1
+Java/134,java,deepseek-coder:6.7b,function misuse,incorrect output,operator misuse,0,10,0
+Java/135,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,10,0
+Java/136,java,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,14,0
+Java/137,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,37,1
+Java/138,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,13,0
+Java/139,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,8,1
+Java/140,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,29,1
+Java/141,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,17,1
+Java/142,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,18,1
+Java/143,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,12,0
+Java/144,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,7,1
+Java/145,java,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,1,0
+Java/146,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,18,0
+Java/147,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,21,1
+Java/148,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,18,1
+Java/149,java,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,19,0
+Java/150,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,16,1
+Java/151,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+Java/152,java,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,7,1
+Java/153,java,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,21,0
+Java/154,java,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,28,0
+Java/155,java,deepseek-coder:6.7b,missing logic,incorrect output,variable misuse,0,19,0
+Java/156,java,deepseek-coder:6.7b,missing logic,infinite loop,excess logic,0,17,1
+Java/157,java,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,10,0
+Java/158,java,deepseek-coder:6.7b,missing logic,incorrect output,excess logic,0,24,1
+Java/159,java,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,11,1
+Java/160,java,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,12,0
+Java/161,java,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,24,0
+Java/162,java,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,22,0
+Java/163,java,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,2,0
+JavaScript/0,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,11,1
+JavaScript/1,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,21,0
+JavaScript/2,js,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,3,1
+JavaScript/3,js,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,10,1
+JavaScript/4,js,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,8,1
+JavaScript/5,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,12,1
+JavaScript/6,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,17,1
+JavaScript/7,js,deepseek-coder:6.7b,variable misuse,incorrect output,function misuse,0,3,1
+JavaScript/8,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,8,1
+JavaScript/9,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,8,1
+JavaScript/10,js,deepseek-coder:6.7b,missing logic,stackoverflow,unknown,0,24,0
+JavaScript/11,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,14,1
+JavaScript/12,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,10,1
+JavaScript/13,js,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,10,0
+JavaScript/14,js,deepseek-coder:6.7b,excess logic,incorrect output,variable misuse,0,9,0
+JavaScript/15,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,3,1
+JavaScript/16,js,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,1,0
+JavaScript/17,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,4,1
+JavaScript/18,js,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,9,1
+JavaScript/19,js,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,1,0
+JavaScript/20,js,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,21,1
+JavaScript/21,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,5,1
+JavaScript/22,js,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,1,0
+JavaScript/23,js,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,3,1
+JavaScript/24,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,7,1
+JavaScript/25,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,15,1
+JavaScript/26,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,11,1
+JavaScript/27,js,deepseek-coder:6.7b,function misuse,incorrect output,value misuse,0,5,1
+JavaScript/28,js,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,2,0
+JavaScript/29,js,deepseek-coder:6.7b,function misuse,incorrect output,function misuse,1,3,1
+JavaScript/30,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,3,1
+JavaScript/31,js,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,10,1
+JavaScript/32,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,15,1
+JavaScript/33,js,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,5,1
+JavaScript/34,js,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,4,1
+JavaScript/35,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,3,1
+JavaScript/36,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,10,1
+JavaScript/37,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,5,1
+JavaScript/38,js,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,33,0
+JavaScript/39,js,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,27,1
+JavaScript/40,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,11,1
+JavaScript/41,js,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,1,0
+JavaScript/42,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,3,1
+JavaScript/43,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,7,1
+JavaScript/44,js,deepseek-coder:6.7b,operator misuse,infinite loop,value misuse,0,1,0
+JavaScript/45,js,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,3,1
+JavaScript/46,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,9,0
+JavaScript/47,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,8,1
+JavaScript/48,js,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,10,0
+JavaScript/49,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,6,0
+JavaScript/50,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,11,0
+JavaScript/51,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,9,1
+JavaScript/52,js,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,8,1
+JavaScript/53,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,3,1
+JavaScript/54,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,23,1
+JavaScript/55,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,7,1
+JavaScript/56,js,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,14,1
+JavaScript/57,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,3,1
+JavaScript/58,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,9,1
+JavaScript/59,js,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,3,0
+JavaScript/60,js,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,5,0
+JavaScript/61,js,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,14,1
+JavaScript/62,js,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,5,1
+JavaScript/63,js,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,1,0
+JavaScript/64,js,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,7,0
+JavaScript/65,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,7,1
+JavaScript/66,js,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,7,1
+JavaScript/67,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,7,1
+JavaScript/68,js,deepseek-coder:6.7b,variable misuse,incorrect output,operator misuse,0,1,0
+JavaScript/69,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,13,1
+JavaScript/70,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,9,0
+JavaScript/71,js,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,9,0
+JavaScript/72,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,12,1
+JavaScript/73,js,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse**,0,9,1
+JavaScript/74,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,5,1
+JavaScript/75,js,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,23,1
+JavaScript/76,js,deepseek-coder:6.7b,variable misuse,infinite loop,unknown,0,8,1
+JavaScript/77,js,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,5,1
+JavaScript/78,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,10,1
+JavaScript/79,js,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,1,0
+JavaScript/80,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,8,1
+JavaScript/81,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,34,1
+JavaScript/82,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,12,1
+JavaScript/83,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,10,1
+JavaScript/84,js,deepseek-coder:6.7b,operator misuse,incorrect output,missing logic,0,1,0
+JavaScript/85,js,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,9,1
+JavaScript/86,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,5,1
+JavaScript/87,js,deepseek-coder:6.7b,variable misuse,incorrect output,variable misuse,1,11,1
+JavaScript/88,js,deepseek-coder:6.7b,operator misuse,incorrect output,unknown,0,6,1
+JavaScript/89,js,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,9,1
+JavaScript/90,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,15,1
+JavaScript/91,js,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,10,0
+JavaScript/92,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,6,1
+JavaScript/93,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,16,1
+JavaScript/94,js,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,22,1
+JavaScript/95,js,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,19,1
+JavaScript/96,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,16,1
+JavaScript/97,js,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,1,0
+JavaScript/98,js,deepseek-coder:6.7b,value misuse,incorrect output,missing logic,0,9,1
+JavaScript/99,js,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,12,1
+JavaScript/100,js,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,1,0
+JavaScript/101,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,18,1
+JavaScript/102,js,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,8,1
+JavaScript/103,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,7,1
+JavaScript/104,js,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,32,1
+JavaScript/105,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,27,1
+JavaScript/106,js,deepseek-coder:6.7b,variable misuse,incorrect output,missing logic,0,1,0
+JavaScript/107,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,22,1
+JavaScript/108,js,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,21,1
+JavaScript/109,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,26,0
+JavaScript/110,js,deepseek-coder:6.7b,variable misuse,incorrect output,unknown,0,18,1
+JavaScript/111,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,22,1
+JavaScript/112,js,deepseek-coder:6.7b,operator misuse,incorrect output,variable misuse,0,1,0
+JavaScript/113,js,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,14,1
+JavaScript/114,js,deepseek-coder:6.7b,function misuse,incorrect output,value misuse,0,15,1
+JavaScript/115,js,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,14,1
+JavaScript/116,js,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,1,0
+JavaScript/117,js,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,15,1
+JavaScript/118,js,deepseek-coder:6.7b,excess logic,incorrect output,"value misuse, missing logic, excess logic",1,12,1
+JavaScript/119,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,15,1
+JavaScript/120,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,18,1
+JavaScript/121,js,deepseek-coder:6.7b,value misuse,incorrect output,no bug,0,1,0
+JavaScript/122,js,deepseek-coder:6.7b,missing logic,incorrect output,variable misuse,0,7,1
+JavaScript/123,js,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,1,0
+JavaScript/124,js,deepseek-coder:6.7b,variable misuse,incorrect output,value misuse,0,6,0
+JavaScript/125,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,20,1
+JavaScript/126,js,deepseek-coder:6.7b,missing logic,incorrect output,syntax error,0,21,1
+JavaScript/127,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,16,1
+JavaScript/128,js,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,10,1
+JavaScript/129,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,8,1
+JavaScript/130,js,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,4,0
+JavaScript/131,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,15,1
+JavaScript/132,js,deepseek-coder:6.7b,value misuse,incorrect output,value misuse,1,4,0
+JavaScript/133,js,deepseek-coder:6.7b,operator misuse,incorrect output,value misuse,0,8,1
+JavaScript/134,js,deepseek-coder:6.7b,function misuse,incorrect output,unknown,0,17,1
+JavaScript/135,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,8,1
+JavaScript/136,js,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,13,1
+JavaScript/137,js,deepseek-coder:6.7b,excess logic,incorrect output,excess logic,1,12,1
+JavaScript/138,js,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,11,1
+JavaScript/139,js,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,15,0
+JavaScript/140,js,deepseek-coder:6.7b,excess logic,incorrect output,variable misuse,0,1,0
+JavaScript/141,js,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,1,0
+JavaScript/142,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,13,1
+JavaScript/143,js,deepseek-coder:6.7b,missing logic,incorrect output,missing logic,1,24,1
+JavaScript/144,js,deepseek-coder:6.7b,excess logic,incorrect output,variable misuse,0,1,0
+JavaScript/145,js,deepseek-coder:6.7b,excess logic,incorrect output,value misuse,0,5,0
+JavaScript/146,js,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,12,1
+JavaScript/147,js,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,17,1
+JavaScript/148,js,deepseek-coder:6.7b,value misuse,incorrect output,variable misuse,0,1,0
+JavaScript/149,js,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse and variable misuse,0,1,0
+JavaScript/150,js,deepseek-coder:6.7b,excess logic,incorrect output,operator misuse,0,11,1
+JavaScript/151,js,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,9,1
+JavaScript/152,js,deepseek-coder:6.7b,excess logic,incorrect output,missing logic,0,1,0
+JavaScript/153,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,22,1
+JavaScript/154,js,deepseek-coder:6.7b,value misuse,incorrect output,operator misuse,0,1,0
+JavaScript/155,js,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,17,1
+JavaScript/156,js,deepseek-coder:6.7b,missing logic,infinite loop,missing logic,1,1,0
+JavaScript/157,js,deepseek-coder:6.7b,missing logic,incorrect output,value misuse,0,3,1
+JavaScript/158,js,deepseek-coder:6.7b,missing logic,incorrect output,operator misuse,0,1,0
+JavaScript/159,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,6,1
+JavaScript/160,js,deepseek-coder:6.7b,excess logic,incorrect output,unknown,0,52,1
+JavaScript/161,js,deepseek-coder:6.7b,missing logic,incorrect output,unknown,0,18,1
+JavaScript/162,js,deepseek-coder:6.7b,function misuse,incorrect output,variable misuse,0,7,0
+JavaScript/163,js,deepseek-coder:6.7b,value misuse,incorrect output,unknown,0,12,1
+Python/0,python,llama3.1:8b,missing logic,incorrect output,excess logic,0,21,1
+Python/1,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,28,1
+Python/2,python,llama3.1:8b,excess logic,incorrect output,operator misuse,0,11,1
+Python/3,python,llama3.1:8b,operator misuse,incorrect output,missing logic,0,21,1
+Python/4,python,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,14,1
+Python/5,python,llama3.1:8b,missing logic,incorrect output,excess logic,0,24,1
+Python/6,python,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,26,1
+Python/7,python,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,8,1
+Python/8,python,llama3.1:8b,value misuse,incorrect output,variable misuse,0,18,1
+Python/9,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,17,0
+Python/10,python,llama3.1:8b,missing logic,stackoverflow,variable misuse,0,27,0
+Python/11,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,10,1
+Python/12,python,llama3.1:8b,operator misuse,incorrect output,excess logic,0,20,1
+Python/13,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,10,1
+Python/14,python,llama3.1:8b,excess logic,incorrect output,missing logic,0,13,1
+Python/15,python,llama3.1:8b,value misuse,incorrect output,missing logic,0,9,1
+Python/16,python,llama3.1:8b,missing logic,incorrect output,operator misuse,0,10,1
+Python/17,python,llama3.1:8b,value misuse,incorrect output,variable misuse,0,19,0
+Python/18,python,llama3.1:8b,value misuse,incorrect output,excess logic,0,17,1
+Python/19,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,33,0
+Python/20,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,24,0
+Python/21,python,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,12,1
+Python/22,python,llama3.1:8b,variable misuse,incorrect output,missing logic,0,21,1
+Python/23,python,llama3.1:8b,value misuse,incorrect output,operator misuse,0,8,1
+Python/24,python,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,9,0
+Python/25,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,26,1
+Python/26,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,10,0
+Python/27,python,llama3.1:8b,function misuse,incorrect output,missing logic,0,6,1
+Python/28,python,llama3.1:8b,excess logic,incorrect output,function misuse,0,8,1
+Python/29,python,llama3.1:8b,function misuse,incorrect output,operator misuse,0,8,1
+Python/30,python,llama3.1:8b,operator misuse,incorrect output,missing logic,0,8,1
+Python/31,python,llama3.1:8b,value misuse,incorrect output,excess logic,0,24,1
+Python/32,python,llama3.1:8b,variable misuse,incorrect output,excess logic,0,37,0
+Python/33,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,20,0
+Python/34,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,6,1
+Python/35,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,8,1
+Python/36,python,llama3.1:8b,operator misuse,incorrect output,excess logic,0,11,1
+Python/37,python,llama3.1:8b,variable misuse,incorrect output,missing logic,0,17,1
+Python/38,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,26,0
+Python/39,python,llama3.1:8b,value misuse,incorrect output,variable misuse**,0,33,0
+Python/40,python,llama3.1:8b,value misuse,incorrect output,excess logic,0,24,0
+Python/41,python,llama3.1:8b,value misuse,incorrect output,missing logic,0,14,0
+Python/42,python,llama3.1:8b,value misuse,incorrect output,operator misuse,0,8,1
+Python/43,python,llama3.1:8b,value misuse,incorrect output,excess logic,0,24,1
+Python/44,python,llama3.1:8b,operator misuse,infinite loop,value misuse,0,18,1
+Python/45,python,llama3.1:8b,value misuse,incorrect output,operator misuse,0,6,1
+Python/46,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,25,1
+Python/47,python,llama3.1:8b,value misuse,incorrect output,operator misuse,0,12,0
+Python/48,python,llama3.1:8b,value misuse,incorrect output,operator misuse**,0,16,1
+Python/49,python,llama3.1:8b,value misuse,incorrect output,operator misuse,0,17,1
+Python/50,python,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,5,1
+Python/51,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,17,1
+Python/52,python,llama3.1:8b,operator misuse,incorrect output,excess logic,0,11,1
+Python/53,python,llama3.1:8b,excess logic,incorrect output,operator misuse,0,8,1
+Python/54,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,22,1
+Python/55,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,15,1
+Python/56,python,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,23,1
+Python/57,python,llama3.1:8b,operator misuse,incorrect output,excess logic,0,11,1
+Python/58,python,llama3.1:8b,missing logic,incorrect output,excess logic,0,13,1
+Python/59,python,llama3.1:8b,variable misuse,incorrect output,excess logic,0,21,1
+Python/60,python,llama3.1:8b,value misuse,incorrect output,operator misuse**,0,14,1
+Python/61,python,llama3.1:8b,operator misuse,incorrect output,excess logic,0,23,1
+Python/62,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,11,0
+Python/63,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,23,1
+Python/64,python,llama3.1:8b,missing logic,incorrect output,variable misuse,0,15,0
+Python/65,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,14,1
+Python/66,python,llama3.1:8b,function misuse,incorrect output,missing logic,0,15,1
+Python/67,python,llama3.1:8b,value misuse,incorrect output,missing logic,0,42,0
+Python/68,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,42,0
+Python/69,python,llama3.1:8b,value misuse,incorrect output,variable misuse,0,22,0
+Python/70,python,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,22,1
+Python/71,python,llama3.1:8b,missing logic,incorrect output,operator misuse,0,23,1
+Python/72,python,llama3.1:8b,operator misuse,incorrect output,excess logic,0,31,1
+Python/73,python,llama3.1:8b,variable misuse,incorrect output,excess logic,0,25,0
+Python/74,python,llama3.1:8b,variable misuse,incorrect output,missing logic,0,24,1
+Python/75,python,llama3.1:8b,value misuse,incorrect output,excess logic,0,25,0
+Python/76,python,llama3.1:8b,variable misuse,infinite loop,excess logic,0,17,1
+Python/77,python,llama3.1:8b,missing logic,incorrect output,operator misuse,0,18,1
+Python/78,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,25,1
+Python/79,python,llama3.1:8b,missing logic,incorrect output,value misuse,0,14,0
+Python/80,python,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,21,1
+Python/81,python,llama3.1:8b,excess logic,incorrect output,value misuse,0,55,0
+Python/82,python,llama3.1:8b,value misuse,incorrect output,missing logic,0,16,1
+Python/83,python,llama3.1:8b,excess logic,incorrect output,value misuse,0,7,0
+Python/84,python,llama3.1:8b,operator misuse,incorrect output,excess logic,0,15,0
+Python/85,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,8,1
+Python/86,python,llama3.1:8b,missing logic,incorrect output,function misuse,0,36,0
+Python/87,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,24,0
+Python/88,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,28,0
+Python/89,python,llama3.1:8b,value misuse,incorrect output,operator misuse,0,20,1
+Python/90,python,llama3.1:8b,value misuse,incorrect output,excess logic,0,16,1
+Python/91,python,llama3.1:8b,value misuse,incorrect output,variable misuse,0,18,1
+Python/92,python,llama3.1:8b,missing logic,incorrect output,value misuse,0,23,1
+Python/93,python,llama3.1:8b,missing logic,incorrect output,excess logic,0,18,1
+Python/94,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,26,1
+Python/95,python,llama3.1:8b,operator misuse,incorrect output,missing logic,0,30,1
+Python/96,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,25,1
+Python/97,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,11,1
+Python/98,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,14,1
+Python/99,python,llama3.1:8b,function misuse,incorrect output,value misuse,0,33,0
+Python/100,python,llama3.1:8b,excess logic,incorrect output,operator misuse,0,22,1
+Python/101,python,llama3.1:8b,value misuse,incorrect output,variable misuse,0,20,0
+Python/102,python,llama3.1:8b,variable misuse,incorrect output,excess logic,0,16,0
+Python/103,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,18,1
+Python/104,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,17,1
+Python/105,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,40,0
+Python/106,python,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,22,1
+Python/107,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,35,1
+Python/108,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,17,1
+Python/109,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,39,0
+Python/110,python,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,25,1
+Python/111,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,31,1
+Python/112,python,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,15,1
+Python/113,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,18,1
+Python/114,python,llama3.1:8b,function misuse,incorrect output,value misuse,0,16,0
+Python/115,python,llama3.1:8b,function misuse,incorrect output,value misuse,0,2,0
+Python/116,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,12,1
+Python/117,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,26,1
+Python/118,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,25,1
+Python/119,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,30,1
+Python/120,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,32,1
+Python/121,python,llama3.1:8b,value misuse,incorrect output,missing logic,0,10,1
+Python/122,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,15,1
+Python/123,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,29,0
+Python/124,python,llama3.1:8b,variable misuse,incorrect output,value misuse,0,40,0
+Python/125,python,llama3.1:8b,value misuse,incorrect output,missing logic,0,21,1
+Python/126,python,llama3.1:8b,missing logic,incorrect output,variable misuse,0,24,0
+Python/127,python,llama3.1:8b,missing logic,incorrect output,operator misuse,0,30,1
+Python/128,python,llama3.1:8b,excess logic,incorrect output,value misuse,0,19,0
+Python/129,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,58,0
+Python/130,python,llama3.1:8b,excess logic,incorrect output,value misuse,0,27,0
+Python/131,python,llama3.1:8b,excess logic,incorrect output,operator misuse,0,19,1
+Python/132,python,llama3.1:8b,value misuse,incorrect output,variable misuse,0,30,0
+Python/133,python,llama3.1:8b,operator misuse,incorrect output,value misuse,0,19,1
+Python/134,python,llama3.1:8b,function misuse,incorrect output,missing logic,0,18,1
+Python/135,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,15,1
+Python/136,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,23,0
+Python/137,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,17,0
+Python/138,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,10,0
+Python/139,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,18,1
+Python/140,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,27,0
+Python/141,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,35,1
+Python/142,python,llama3.1:8b,missing logic,incorrect output,value misuse,0,21,1
+Python/143,python,llama3.1:8b,missing logic,incorrect output,excess logic,0,35,1
+Python/144,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,24,1
+Python/145,python,llama3.1:8b,excess logic,incorrect output,value misuse,0,18,1
+Python/146,python,llama3.1:8b,excess logic,incorrect output,value misuse,0,19,1
+Python/147,python,llama3.1:8b,missing logic,incorrect output,excess logic,0,22,1
+Python/148,python,llama3.1:8b,value misuse,incorrect output,variable misuse,0,31,1
+Python/149,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,22,1
+Python/150,python,llama3.1:8b,excess logic,incorrect output,excess logic,1,15,1
+Python/151,python,llama3.1:8b,missing logic,incorrect output,value misuse,0,18,0
+Python/152,python,llama3.1:8b,excess logic,incorrect output,operator misuse,0,16,1
+Python/153,python,llama3.1:8b,missing logic,incorrect output,missing logic**,1,24,1
+Python/154,python,llama3.1:8b,value misuse,incorrect output,value misuse,1,15,0
+Python/155,python,llama3.1:8b,missing logic,incorrect output,excess logic,0,15,1
+Python/156,python,llama3.1:8b,missing logic,infinite loop,value misuse,0,23,0
+Python/157,python,llama3.1:8b,missing logic,incorrect output,operator misuse,0,12,0
+Python/158,python,llama3.1:8b,missing logic,incorrect output,missing logic,1,22,1
+Python/159,python,llama3.1:8b,excess logic,incorrect output,operator misuse,0,34,1
+Python/160,python,llama3.1:8b,excess logic,incorrect output,variable misuse,0,29,0
+Python/161,python,llama3.1:8b,missing logic,incorrect output,value misuse,0,20,1
+Python/162,python,llama3.1:8b,function misuse,incorrect output,value misuse,0,2,0
+Python/163,python,llama3.1:8b,value misuse,incorrect output,excess logic,0,14,0
+CPP/0,cpp,llama3.1:8b,missing logic,incorrect output,excess logic,0,15,1
+CPP/1,cpp,llama3.1:8b,operator misuse,incorrect output,value misuse,0,28,1
+CPP/2,cpp,llama3.1:8b,excess logic,incorrect output,operator misuse,0,7,1
+CPP/3,cpp,llama3.1:8b,operator misuse,incorrect output,missing logic,0,13,1
+CPP/4,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,18,1
+CPP/5,cpp,llama3.1:8b,missing logic,incorrect output,excess logic,0,13,0
+CPP/6,cpp,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,22,0
+CPP/7,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,15,1
+CPP/8,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,13,0
+CPP/9,cpp,llama3.1:8b,variable misuse,incorrect output,missing logic,0,18,0
+CPP/10,cpp,llama3.1:8b,missing logic,stackoverflow,excess logic,0,28,0
+CPP/11,cpp,llama3.1:8b,value misuse,incorrect output,missing logic,0,22,0
+CPP/12,cpp,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,18,1
+CPP/13,cpp,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,16,1
+CPP/14,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,14,1
+CPP/15,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,9,1
+CPP/16,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,17,1
+CPP/17,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,23,1
+CPP/18,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,13,1
+CPP/19,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,66,0
+CPP/20,cpp,llama3.1:8b,operator misuse,incorrect output,excess logic,0,24,0
+CPP/21,cpp,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,25,0
+CPP/22,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,17,0
+CPP/23,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,8,1
+CPP/24,cpp,llama3.1:8b,operator misuse,incorrect output,value misuse,0,6,0
+CPP/25,cpp,llama3.1:8b,value misuse,incorrect output,operator misuse,0,15,1
+CPP/26,cpp,llama3.1:8b,operator misuse,incorrect output,excess logic,0,16,0
+CPP/27,cpp,llama3.1:8b,function misuse,incorrect output,value misuse**,0,16,0
+CPP/28,cpp,llama3.1:8b,excess logic,incorrect output,variable misuse,0,13,1
+CPP/29,cpp,llama3.1:8b,function misuse,incorrect output,operator misuse,0,13,1
+CPP/30,cpp,llama3.1:8b,operator misuse,incorrect output,missing logic,0,12,0
+CPP/31,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,8,1
+CPP/32,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,44,0
+CPP/33,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,27,1
+CPP/34,cpp,llama3.1:8b,missing logic,incorrect output,missing logic,1,16,0
+CPP/35,cpp,llama3.1:8b,operator misuse,incorrect output,value misuse,0,10,1
+CPP/36,cpp,llama3.1:8b,operator misuse,incorrect output,missing logic,0,16,1
+CPP/37,cpp,llama3.1:8b,variable misuse,incorrect output,missing logic,0,18,1
+CPP/38,cpp,llama3.1:8b,missing logic,incorrect output,missing logic,1,35,0
+CPP/39,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,19,1
+CPP/40,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,11,1
+CPP/41,cpp,llama3.1:8b,value misuse,incorrect output,missing logic,0,21,0
+CPP/42,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,11,0
+CPP/43,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,9,1
+CPP/44,cpp,llama3.1:8b,operator misuse,infinite loop,value misuse,0,12,0
+CPP/45,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,10,1
+CPP/46,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,14,1
+CPP/47,cpp,llama3.1:8b,value misuse,incorrect output,operator misuse,0,12,1
+CPP/48,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,9,1
+CPP/49,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,9,1
+CPP/50,cpp,llama3.1:8b,variable misuse,incorrect output,operator misuse**,0,27,0
+CPP/51,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,15,0
+CPP/52,cpp,llama3.1:8b,operator misuse,incorrect output,value misuse,0,9,1
+CPP/53,cpp,llama3.1:8b,excess logic,incorrect output,operator misuse,0,6,1
+CPP/54,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,15,0
+CPP/55,cpp,llama3.1:8b,excess logic,incorrect output,variable misuse,0,16,1
+CPP/56,cpp,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,14,1
+CPP/57,cpp,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,8,0
+CPP/58,cpp,llama3.1:8b,missing logic,incorrect output,excess logic,0,19,0
+CPP/59,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,8,0
+CPP/60,cpp,llama3.1:8b,value misuse,incorrect output,operator misuse,0,5,1
+CPP/61,cpp,llama3.1:8b,operator misuse,incorrect output,value misuse,0,13,1
+CPP/62,cpp,llama3.1:8b,value misuse,incorrect output,operator misuse,0,15,0
+CPP/63,cpp,llama3.1:8b,value misuse,incorrect output,variable misuse**,0,26,0
+CPP/64,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,15,0
+CPP/65,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,15,0
+CPP/66,cpp,llama3.1:8b,function misuse,incorrect output,value misuse,0,13,1
+CPP/67,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,20,1
+CPP/68,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,22,0
+CPP/69,cpp,llama3.1:8b,value misuse,incorrect output,variable misuse,0,22,0
+CPP/70,cpp,llama3.1:8b,operator misuse,incorrect output,missing logic,0,24,0
+CPP/71,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,11,1
+CPP/72,cpp,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,16,1
+CPP/73,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,14,0
+CPP/74,cpp,llama3.1:8b,variable misuse,incorrect output,missing logic,0,21,1
+CPP/75,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,16,0
+CPP/76,cpp,llama3.1:8b,variable misuse,infinite loop,excess logic**,0,8,0
+CPP/77,cpp,llama3.1:8b,missing logic,incorrect output,operator misuse,0,7,0
+CPP/78,cpp,llama3.1:8b,value misuse,incorrect output,variable misuse,0,13,1
+CPP/79,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,14,1
+CPP/80,cpp,llama3.1:8b,operator misuse,incorrect output,excess logic,0,12,1
+CPP/81,cpp,llama3.1:8b,excess logic,incorrect output,excess logic,1,25,0
+CPP/82,cpp,llama3.1:8b,value misuse,incorrect output,variable misuse,0,12,0
+CPP/83,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,11,0
+CPP/84,cpp,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,10,0
+CPP/85,cpp,llama3.1:8b,value misuse,incorrect output,** value misuse,1,10,0
+CPP/86,cpp,llama3.1:8b,missing logic,incorrect output,variable misuse,0,19,0
+CPP/87,cpp,llama3.1:8b,variable misuse,incorrect output,missing logic,0,23,0
+CPP/88,cpp,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,19,0
+CPP/89,cpp,llama3.1:8b,value misuse,incorrect output,operator misuse,0,18,1
+CPP/90,cpp,llama3.1:8b,value misuse,incorrect output,missing logic,0,18,1
+CPP/91,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,17,0
+CPP/92,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,13,1
+CPP/93,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,34,0
+CPP/94,cpp,llama3.1:8b,operator misuse,incorrect output,missing logic,0,35,0
+CPP/95,cpp,llama3.1:8b,operator misuse,incorrect output,missing logic,0,33,0
+CPP/96,cpp,llama3.1:8b,variable misuse,incorrect output,missing logic,0,28,1
+CPP/97,cpp,llama3.1:8b,excess logic,incorrect output,excess logic,1,5,0
+CPP/98,cpp,llama3.1:8b,value misuse,incorrect output,operator misuse,0,15,0
+CPP/99,cpp,llama3.1:8b,function misuse,incorrect output,missing logic,0,11,0
+CPP/100,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,13,0
+CPP/101,cpp,llama3.1:8b,value misuse,incorrect output,variable misuse,0,26,1
+CPP/102,cpp,llama3.1:8b,variable misuse,incorrect output,excess logic,0,9,0
+CPP/103,cpp,llama3.1:8b,value misuse,incorrect output,missing logic,0,19,1
+CPP/104,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,20,1
+CPP/105,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,26,1
+CPP/106,cpp,llama3.1:8b,variable misuse,incorrect output,missing logic,0,23,1
+CPP/107,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,15,1
+CPP/108,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,23,0
+CPP/109,cpp,llama3.1:8b,variable misuse,incorrect output,excess logic,0,10,0
+CPP/110,cpp,llama3.1:8b,variable misuse,incorrect output,missing logic,0,22,0
+CPP/111,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,31,0
+CPP/112,cpp,llama3.1:8b,operator misuse,incorrect output,value misuse,0,15,0
+CPP/113,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,21,0
+CPP/114,cpp,llama3.1:8b,function misuse,incorrect output,value misuse,0,19,0
+CPP/115,cpp,llama3.1:8b,function misuse,incorrect output,value misuse,0,17,1
+CPP/116,cpp,llama3.1:8b,variable misuse,incorrect output,excess logic,0,26,0
+CPP/117,cpp,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,35,1
+CPP/118,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,18,0
+CPP/119,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,26,1
+CPP/120,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,11,1
+CPP/121,cpp,llama3.1:8b,value misuse,incorrect output,operator misuse,0,11,0
+CPP/122,cpp,llama3.1:8b,missing logic,incorrect output,missing logic,1,14,1
+CPP/123,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,14,1
+CPP/124,cpp,llama3.1:8b,variable misuse,incorrect output,value misuse,0,36,0
+CPP/125,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,40,0
+CPP/126,cpp,llama3.1:8b,missing logic,incorrect output,missing logic,1,18,0
+CPP/127,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,16,1
+CPP/128,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,20,0
+CPP/129,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,35,0
+CPP/130,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,13,0
+CPP/131,cpp,llama3.1:8b,excess logic,incorrect output,operator misuse,0,18,0
+CPP/132,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,15,0
+CPP/133,cpp,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,12,1
+CPP/134,cpp,llama3.1:8b,function misuse,incorrect output,operator misuse,0,11,0
+CPP/135,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,13,1
+CPP/136,cpp,llama3.1:8b,excess logic,incorrect output,excess logic,1,8,0
+CPP/137,cpp,llama3.1:8b,excess logic,incorrect output,variable misuse,0,110,0
+CPP/138,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,20,0
+CPP/139,cpp,llama3.1:8b,excess logic,incorrect output,operator misuse,0,11,1
+CPP/140,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,27,0
+CPP/141,cpp,llama3.1:8b,missing logic,incorrect output,excess logic,0,16,0
+CPP/142,cpp,llama3.1:8b,missing logic,incorrect output,missing logic,1,18,1
+CPP/143,cpp,llama3.1:8b,missing logic,incorrect output,operator misuse,0,28,1
+CPP/144,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,18,0
+CPP/145,cpp,llama3.1:8b,excess logic,incorrect output,excess logic,1,24,1
+CPP/146,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,16,1
+CPP/147,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,29,1
+CPP/148,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,19,1
+CPP/149,cpp,llama3.1:8b,missing logic,incorrect output,excess logic,0,25,1
+CPP/150,cpp,llama3.1:8b,excess logic,incorrect output,missing logic,0,11,1
+CPP/151,cpp,llama3.1:8b,missing logic,incorrect output,missing logic,1,16,0
+CPP/152,cpp,llama3.1:8b,excess logic,incorrect output,operator misuse,0,10,1
+CPP/153,cpp,llama3.1:8b,missing logic,incorrect output,missing logic,1,25,1
+CPP/154,cpp,llama3.1:8b,value misuse,incorrect output,value misuse,1,10,1
+CPP/155,cpp,llama3.1:8b,missing logic,incorrect output,variable misuse,0,14,0
+CPP/156,cpp,llama3.1:8b,missing logic,infinite loop,operator misuse**,0,18,0
+CPP/157,cpp,llama3.1:8b,missing logic,incorrect output,operator misuse,0,12,0
+CPP/158,cpp,llama3.1:8b,missing logic,incorrect output,variable misuse,0,24,0
+CPP/159,cpp,llama3.1:8b,excess logic,incorrect output,value misuse,0,15,0
+CPP/160,cpp,llama3.1:8b,excess logic,incorrect output,variable misuse,0,63,0
+CPP/161,cpp,llama3.1:8b,missing logic,incorrect output,value misuse,0,21,0
+CPP/162,cpp,llama3.1:8b,function misuse,incorrect output,value misuse,0,19,0
+CPP/163,cpp,llama3.1:8b,value misuse,incorrect output,missing logic,0,21,0
+Java/0,java,llama3.1:8b,missing logic,incorrect output,operator misuse,0,21,1
+Java/1,java,llama3.1:8b,operator misuse,incorrect output,missing logic,0,38,1
+Java/2,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,17,1
+Java/3,java,llama3.1:8b,operator misuse,incorrect output,missing logic,0,26,1
+Java/4,java,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,29,1
+Java/5,java,llama3.1:8b,missing logic,incorrect output,excess logic,0,26,1
+Java/6,java,llama3.1:8b,variable misuse,incorrect output,value misuse**,0,39,1
+Java/7,java,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,21,1
+Java/8,java,llama3.1:8b,value misuse,incorrect output,operator misuse,0,23,1
+Java/9,java,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,28,1
+Java/10,java,llama3.1:8b,missing logic,stackoverflow,excess logic,0,47,0
+Java/11,java,llama3.1:8b,value misuse,incorrect output,operator misuse,0,18,1
+Java/12,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,27,1
+Java/13,java,llama3.1:8b,variable misuse,incorrect output,excess logic,0,25,0
+Java/14,java,llama3.1:8b,excess logic,incorrect output,excess logic,1,18,1
+Java/15,java,llama3.1:8b,value misuse,incorrect output,missing logic,0,21,1
+Java/16,java,llama3.1:8b,missing logic,incorrect output,missing logic,1,21,1
+Java/17,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,30,1
+Java/18,java,llama3.1:8b,value misuse,incorrect output,missing logic,0,25,1
+Java/19,java,llama3.1:8b,missing logic,incorrect output,excess logic**,0,20,0
+Java/20,java,llama3.1:8b,operator misuse,incorrect output,excess logic,0,36,1
+Java/21,java,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,23,1
+Java/22,java,llama3.1:8b,variable misuse,incorrect output,excess logic,0,20,1
+Java/23,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,15,1
+Java/24,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,18,1
+Java/25,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,35,1
+Java/26,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,19,1
+Java/27,java,llama3.1:8b,function misuse,incorrect output,value misuse,0,21,1
+Java/28,java,llama3.1:8b,excess logic,incorrect output,operator misuse,0,15,1
+Java/29,java,llama3.1:8b,function misuse,incorrect output,operator misuse,0,16,1
+Java/30,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,16,1
+Java/31,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,33,1
+Java/32,java,llama3.1:8b,variable misuse,incorrect output,value misuse,0,46,0
+Java/33,java,llama3.1:8b,missing logic,incorrect output,operator misuse,0,27,0
+Java/34,java,llama3.1:8b,missing logic,incorrect output,missing logic,1,15,1
+Java/35,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,15,1
+Java/36,java,llama3.1:8b,operator misuse,incorrect output,excess logic,0,28,1
+Java/37,java,llama3.1:8b,variable misuse,incorrect output,value misuse,0,25,1
+Java/38,java,llama3.1:8b,missing logic,incorrect output,function misuse,0,40,1
+Java/39,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,41,1
+Java/40,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,35,1
+Java/41,java,llama3.1:8b,value misuse,incorrect output,missing logic,0,22,1
+Java/42,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,16,1
+Java/43,java,llama3.1:8b,value misuse,incorrect output,missing logic,0,34,0
+Java/44,java,llama3.1:8b,operator misuse,infinite loop,value misuse,0,24,1
+Java/45,java,llama3.1:8b,value misuse,incorrect output,operator misuse,0,13,1
+Java/46,java,llama3.1:8b,value misuse,incorrect output,excess logic,0,34,1
+Java/47,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,21,1
+Java/48,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,24,1
+Java/49,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,25,1
+Java/50,java,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,26,1
+Java/51,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,29,0
+Java/52,java,llama3.1:8b,operator misuse,incorrect output,excess logic,0,20,1
+Java/53,java,llama3.1:8b,excess logic,incorrect output,excess logic,1,15,1
+Java/54,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,31,1
+Java/55,java,llama3.1:8b,excess logic,incorrect output,excess logic,1,23,1
+Java/56,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,33,1
+Java/57,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,32,0
+Java/58,java,llama3.1:8b,missing logic,incorrect output,missing logic,1,25,1
+Java/59,java,llama3.1:8b,variable misuse,incorrect output,excess logic,0,30,0
+Java/60,java,llama3.1:8b,value misuse,incorrect output,missing logic,0,25,1
+Java/61,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,32,1
+Java/62,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,21,1
+Java/63,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,31,1
+Java/64,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,17,0
+Java/65,java,llama3.1:8b,variable misuse,incorrect output,value misuse,0,28,1
+Java/66,java,llama3.1:8b,function misuse,incorrect output,value misuse,0,26,1
+Java/67,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,30,1
+Java/68,java,llama3.1:8b,variable misuse,incorrect output,value misuse,0,58,0
+Java/69,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,29,1
+Java/70,java,llama3.1:8b,operator misuse,incorrect output,excess logic,0,31,0
+Java/71,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,24,0
+Java/72,java,llama3.1:8b,operator misuse,incorrect output,missing logic,0,36,1
+Java/73,java,llama3.1:8b,variable misuse,incorrect output,value misuse,0,23,0
+Java/74,java,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,35,0
+Java/75,java,llama3.1:8b,value misuse,incorrect output,excess logic,0,40,0
+Java/76,java,llama3.1:8b,variable misuse,infinite loop,value misuse,0,27,0
+Java/77,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,21,1
+Java/78,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,33,1
+Java/79,java,llama3.1:8b,missing logic,incorrect output,variable misuse,0,20,0
+Java/80,java,llama3.1:8b,operator misuse,incorrect output,excess logic,0,29,1
+Java/81,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,62,1
+Java/82,java,llama3.1:8b,value misuse,incorrect output,excess logic,0,26,1
+Java/83,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,15,0
+Java/84,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,26,0
+Java/85,java,llama3.1:8b,value misuse,incorrect output,missing logic,0,20,1
+Java/86,java,llama3.1:8b,missing logic,incorrect output,function misuse,0,27,0
+Java/87,java,llama3.1:8b,variable misuse,incorrect output,missing logic**,0,39,0
+Java/88,java,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,32,0
+Java/89,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,28,1
+Java/90,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,30,1
+Java/91,java,llama3.1:8b,value misuse,incorrect output,operator misuse,0,26,0
+Java/92,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,28,1
+Java/93,java,llama3.1:8b,missing logic,incorrect output,operator misuse,0,38,0
+Java/94,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,40,1
+Java/95,java,llama3.1:8b,operator misuse,incorrect output,excess logic,0,42,0
+Java/96,java,llama3.1:8b,variable misuse,incorrect output,missing logic,0,35,1
+Java/97,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,27,1
+Java/98,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,23,1
+Java/99,java,llama3.1:8b,function misuse,incorrect output,value misuse,0,45,0
+Java/100,java,llama3.1:8b,excess logic,incorrect output,missing logic,0,34,0
+Java/101,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,20,1
+Java/102,java,llama3.1:8b,variable misuse,incorrect output,missing logic,0,23,0
+Java/103,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,23,0
+Java/104,java,llama3.1:8b,excess logic,incorrect output,excess logic,1,33,1
+Java/105,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,54,0
+Java/106,java,llama3.1:8b,variable misuse,incorrect output,excess logic,0,32,1
+Java/107,java,llama3.1:8b,value misuse,incorrect output,operator misuse,0,41,1
+Java/108,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,35,1
+Java/109,java,llama3.1:8b,variable misuse,incorrect output,excess logic,0,49,0
+Java/110,java,llama3.1:8b,variable misuse,incorrect output,missing logic,0,34,1
+Java/111,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,42,1
+Java/112,java,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,25,1
+Java/113,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,30,0
+Java/114,java,llama3.1:8b,function misuse,incorrect output,value misuse,0,23,0
+Java/115,java,llama3.1:8b,function misuse,incorrect output,value misuse,0,45,1
+Java/116,java,llama3.1:8b,variable misuse,incorrect output,value misuse,0,28,1
+Java/117,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,33,1
+Java/118,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,34,1
+Java/119,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,39,1
+Java/120,java,llama3.1:8b,excess logic,incorrect output,excess logic,1,37,1
+Java/121,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,22,1
+Java/122,java,llama3.1:8b,missing logic,incorrect output,excess logic,0,28,0
+Java/123,java,llama3.1:8b,value misuse,incorrect output,excess logic,0,38,0
+Java/124,java,llama3.1:8b,variable misuse,incorrect output,value misuse,0,57,0
+Java/125,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,29,1
+Java/126,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,32,0
+Java/127,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,46,0
+Java/128,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,28,0
+Java/129,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,63,0
+Java/130,java,llama3.1:8b,excess logic,incorrect output,operator misuse,0,36,0
+Java/131,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,28,1
+Java/132,java,llama3.1:8b,value misuse,incorrect output,variable misuse,0,32,0
+Java/133,java,llama3.1:8b,operator misuse,incorrect output,value misuse,0,19,1
+Java/134,java,llama3.1:8b,function misuse,incorrect output,value misuse,0,25,0
+Java/135,java,llama3.1:8b,excess logic,incorrect output,variable misuse,0,24,0
+Java/136,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,29,0
+Java/137,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,37,1
+Java/138,java,llama3.1:8b,excess logic,incorrect output,excess logic,1,19,0
+Java/139,java,llama3.1:8b,excess logic,incorrect output,operator misuse,0,29,0
+Java/140,java,llama3.1:8b,excess logic,incorrect output,variable misuse,0,37,1
+Java/141,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,34,0
+Java/142,java,llama3.1:8b,missing logic,incorrect output,missing logic,1,28,1
+Java/143,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,41,0
+Java/144,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,29,1
+Java/145,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,38,0
+Java/146,java,llama3.1:8b,excess logic,incorrect output,excess logic,1,25,0
+Java/147,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,34,1
+Java/148,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,17,1
+Java/149,java,llama3.1:8b,missing logic,incorrect output,missing logic,1,38,1
+Java/150,java,llama3.1:8b,excess logic,incorrect output,operator misuse,0,24,1
+Java/151,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,22,0
+Java/152,java,llama3.1:8b,excess logic,incorrect output,operator misuse,0,25,1
+Java/153,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,33,0
+Java/154,java,llama3.1:8b,value misuse,incorrect output,excess logic,0,23,0
+Java/155,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,24,1
+Java/156,java,llama3.1:8b,missing logic,infinite loop,missing logic,1,26,1
+Java/157,java,llama3.1:8b,missing logic,incorrect output,value misuse,0,19,1
+Java/158,java,llama3.1:8b,missing logic,incorrect output,excess logic,0,40,1
+Java/159,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,44,1
+Java/160,java,llama3.1:8b,excess logic,incorrect output,value misuse,0,66,1
+Java/161,java,llama3.1:8b,missing logic,incorrect output,excess logic,0,27,0
+Java/162,java,llama3.1:8b,function misuse,incorrect output,operator misuse,0,27,1
+Java/163,java,llama3.1:8b,value misuse,incorrect output,value misuse,1,23,0
+JavaScript/0,js,llama3.1:8b,missing logic,incorrect output,excess logic,0,11,1
+JavaScript/1,js,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,21,1
+JavaScript/2,js,llama3.1:8b,excess logic,incorrect output,operator misuse,0,3,1
+JavaScript/3,js,llama3.1:8b,operator misuse,incorrect output,value misuse,0,10,1
+JavaScript/4,js,llama3.1:8b,variable misuse,incorrect output,value misuse,0,8,1
+JavaScript/5,js,llama3.1:8b,missing logic,incorrect output,excess logic,0,9,1
+JavaScript/6,js,llama3.1:8b,variable misuse,incorrect output,missing logic,0,18,1
+JavaScript/7,js,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,3,1
+JavaScript/8,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,12,1
+JavaScript/9,js,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,11,1
+JavaScript/10,js,llama3.1:8b,missing logic,stackoverflow,variable misuse,0,15,0
+JavaScript/11,js,llama3.1:8b,value misuse,incorrect output,missing logic**,0,3,1
+JavaScript/12,js,llama3.1:8b,operator misuse,incorrect output,missing logic,0,15,1
+JavaScript/13,js,llama3.1:8b,variable misuse,incorrect output,value misuse**,0,8,1
+JavaScript/14,js,llama3.1:8b,excess logic,incorrect output,operator misuse,0,7,1
+JavaScript/15,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,3,1
+JavaScript/16,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,3,1
+JavaScript/17,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,4,1
+JavaScript/18,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,9,1
+JavaScript/19,js,llama3.1:8b,missing logic,incorrect output,missing logic,1,21,1
+JavaScript/20,js,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,10,1
+JavaScript/21,js,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,5,1
+JavaScript/22,js,llama3.1:8b,variable misuse,incorrect output,missing logic,0,3,1
+JavaScript/23,js,llama3.1:8b,value misuse,incorrect output,operator misuse**,0,3,1
+JavaScript/24,js,llama3.1:8b,operator misuse,incorrect output,excess logic,0,8,1
+JavaScript/25,js,llama3.1:8b,value misuse,incorrect output,operator misuse,0,14,1
+JavaScript/26,js,llama3.1:8b,operator misuse,incorrect output,operator misuse**,1,11,1
+JavaScript/27,js,llama3.1:8b,function misuse,incorrect output,value misuse,0,5,1
+JavaScript/28,js,llama3.1:8b,excess logic,incorrect output,operator misuse,0,3,1
+JavaScript/29,js,llama3.1:8b,function misuse,incorrect output,operator misuse,0,3,1
+JavaScript/30,js,llama3.1:8b,operator misuse,incorrect output,value misuse,0,3,1
+JavaScript/31,js,llama3.1:8b,value misuse,incorrect output,missing logic,0,11,1
+JavaScript/32,js,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,18,0
+JavaScript/33,js,llama3.1:8b,missing logic,incorrect output,operator misuse,0,4,1
+JavaScript/34,js,llama3.1:8b,missing logic,incorrect output,missing logic,1,3,1
+JavaScript/35,js,llama3.1:8b,operator misuse,incorrect output,operator misuse,1,3,1
+JavaScript/36,js,llama3.1:8b,operator misuse,incorrect output,value misuse,0,9,1
+JavaScript/37,js,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,5,1
+JavaScript/38,js,llama3.1:8b,missing logic,incorrect output,function misuse,0,38,0
+JavaScript/39,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,20,1
+JavaScript/40,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,12,1
+JavaScript/41,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,3,1
+JavaScript/42,js,llama3.1:8b,value misuse,incorrect output,operator misuse,0,3,1
+JavaScript/43,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,13,1
+JavaScript/44,js,llama3.1:8b,operator misuse,infinite loop,value misuse,0,11,1
+JavaScript/45,js,llama3.1:8b,value misuse,incorrect output,operator misuse,0,3,1
+JavaScript/46,js,llama3.1:8b,value misuse,incorrect output,variable misuse,0,9,1
+JavaScript/47,js,llama3.1:8b,value misuse,incorrect output,operator misuse,0,8,1
+JavaScript/48,js,llama3.1:8b,value misuse,incorrect output,operator misuse,0,8,1
+JavaScript/49,js,llama3.1:8b,value misuse,incorrect output,operator misuse,0,6,1
+JavaScript/50,js,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,5,1
+JavaScript/51,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,5,1
+JavaScript/52,js,llama3.1:8b,operator misuse,incorrect output,excess logic,0,8,1
+JavaScript/53,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,3,1
+JavaScript/54,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,3,1
+JavaScript/55,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,7,1
+JavaScript/56,js,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,12,1
+JavaScript/57,js,llama3.1:8b,operator misuse,incorrect output,excess logic,0,5,1
+JavaScript/58,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,7,1
+JavaScript/59,js,llama3.1:8b,variable misuse,incorrect output,value misuse,0,17,1
+JavaScript/60,js,llama3.1:8b,value misuse,incorrect output,operator misuse,0,7,1
+JavaScript/61,js,llama3.1:8b,operator misuse,incorrect output,value misuse,0,14,1
+JavaScript/62,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,3,1
+JavaScript/63,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,13,1
+JavaScript/64,js,llama3.1:8b,missing logic,incorrect output,variable misuse,0,11,1
+JavaScript/65,js,llama3.1:8b,variable misuse,incorrect output,value misuse,0,7,1
+JavaScript/66,js,llama3.1:8b,function misuse,incorrect output,excess logic,0,7,1
+JavaScript/67,js,llama3.1:8b,value misuse,incorrect output,variable misuse,0,16,1
+JavaScript/68,js,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,6,1
+JavaScript/69,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,10,1
+JavaScript/70,js,llama3.1:8b,operator misuse,incorrect output,value misuse,0,20,1
+JavaScript/71,js,llama3.1:8b,missing logic,incorrect output,variable misuse,0,7,1
+JavaScript/72,js,llama3.1:8b,operator misuse,incorrect output,excess logic,0,12,1
+JavaScript/73,js,llama3.1:8b,variable misuse,incorrect output,operator misuse,0,7,1
+JavaScript/74,js,llama3.1:8b,variable misuse,incorrect output,missing logic,0,10,1
+JavaScript/75,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,36,1
+JavaScript/76,js,llama3.1:8b,variable misuse,infinite loop,excess logic,0,10,1
+JavaScript/77,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,5,1
+JavaScript/78,js,llama3.1:8b,value misuse,incorrect output,missing logic,0,8,1
+JavaScript/79,js,llama3.1:8b,missing logic,incorrect output,excess logic,0,3,1
+JavaScript/80,js,llama3.1:8b,operator misuse,incorrect output,value misuse,0,10,1
+JavaScript/81,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,34,1
+JavaScript/82,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,8,1
+JavaScript/83,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,8,1
+JavaScript/84,js,llama3.1:8b,operator misuse,incorrect output,missing logic,0,8,1
+JavaScript/85,js,llama3.1:8b,value misuse,incorrect output,variable misuse,0,9,1
+JavaScript/86,js,llama3.1:8b,missing logic,incorrect output,excess logic,0,12,1
+JavaScript/87,js,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,14,1
+JavaScript/88,js,llama3.1:8b,operator misuse,incorrect output,missing logic,0,10,1
+JavaScript/89,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,16,1
+JavaScript/90,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,14,1
+JavaScript/91,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,10,1
+JavaScript/92,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,6,1
+JavaScript/93,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,18,1
+JavaScript/94,js,llama3.1:8b,operator misuse,incorrect output,variable misuse,0,23,1
+JavaScript/95,js,llama3.1:8b,operator misuse,incorrect output,value misuse,0,22,1
+JavaScript/96,js,llama3.1:8b,variable misuse,incorrect output,value misuse,0,14,1
+JavaScript/97,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,5,1
+JavaScript/98,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,7,1
+JavaScript/99,js,llama3.1:8b,function misuse,incorrect output,operator misuse,0,8,1
+JavaScript/100,js,llama3.1:8b,excess logic,incorrect output,missing logic,0,13,1
+JavaScript/101,js,llama3.1:8b,value misuse,incorrect output,variable misuse,0,4,1
+JavaScript/102,js,llama3.1:8b,variable misuse,incorrect output,missing logic,0,7,1
+JavaScript/103,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,5,1
+JavaScript/104,js,llama3.1:8b,excess logic,incorrect output,excess logic**,1,20,1
+JavaScript/105,js,llama3.1:8b,missing logic,incorrect output,missing logic,1,7,1
+JavaScript/106,js,llama3.1:8b,variable misuse,incorrect output,missing logic,0,19,1
+JavaScript/107,js,llama3.1:8b,value misuse,incorrect output,variable misuse,0,19,1
+JavaScript/108,js,llama3.1:8b,excess logic,incorrect output,operator misuse,0,15,1
+JavaScript/109,js,llama3.1:8b,variable misuse,incorrect output,excess logic,0,19,1
+JavaScript/110,js,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,14,1
+JavaScript/111,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,23,1
+JavaScript/112,js,llama3.1:8b,operator misuse,incorrect output,** value misuse,0,17,1
+JavaScript/113,js,llama3.1:8b,excess logic,incorrect output,variable misuse,0,12,1
+JavaScript/114,js,llama3.1:8b,function misuse,incorrect output,value misuse,0,11,1
+JavaScript/115,js,llama3.1:8b,function misuse,incorrect output,value misuse,0,11,1
+JavaScript/116,js,llama3.1:8b,variable misuse,incorrect output,variable misuse,1,22,1
+JavaScript/117,js,llama3.1:8b,operator misuse,incorrect output,excess logic,0,16,1
+JavaScript/118,js,llama3.1:8b,excess logic,incorrect output,missing logic,0,13,0
+JavaScript/119,js,llama3.1:8b,value misuse,incorrect output,variable misuse,0,17,1
+JavaScript/120,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,3,1
+JavaScript/121,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,10,1
+JavaScript/122,js,llama3.1:8b,missing logic,incorrect output,missing logic**,1,7,1
+JavaScript/123,js,llama3.1:8b,value misuse,incorrect output,variable misuse,0,13,1
+JavaScript/124,js,llama3.1:8b,variable misuse,incorrect output,missing logic,0,11,1
+JavaScript/125,js,llama3.1:8b,value misuse,incorrect output,missing logic,0,15,1
+JavaScript/126,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,16,1
+JavaScript/127,js,llama3.1:8b,missing logic,incorrect output,variable misuse,0,8,1
+JavaScript/128,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,11,1
+JavaScript/129,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,35,1
+JavaScript/130,js,llama3.1:8b,excess logic,incorrect output,variable misuse,0,14,1
+JavaScript/131,js,llama3.1:8b,excess logic,incorrect output,operator misuse,0,11,1
+JavaScript/132,js,llama3.1:8b,value misuse,incorrect output,excess logic,0,25,1
+JavaScript/133,js,llama3.1:8b,operator misuse,incorrect output,excess logic,0,12,1
+JavaScript/134,js,llama3.1:8b,function misuse,incorrect output,value misuse,0,11,1
+JavaScript/135,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,12,1
+JavaScript/136,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,11,1
+JavaScript/137,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,9,1
+JavaScript/138,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,19,1
+JavaScript/139,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,10,1
+JavaScript/140,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,22,1
+JavaScript/141,js,llama3.1:8b,missing logic,incorrect output,excess logic**,0,15,1
+JavaScript/142,js,llama3.1:8b,missing logic,incorrect output,missing logic,1,9,1
+JavaScript/143,js,llama3.1:8b,missing logic,incorrect output,variable misuse,0,22,1
+JavaScript/144,js,llama3.1:8b,excess logic,incorrect output,variable misuse,0,5,1
+JavaScript/145,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,29,1
+JavaScript/146,js,llama3.1:8b,excess logic,incorrect output,variable misuse**,0,12,1
+JavaScript/147,js,llama3.1:8b,missing logic,incorrect output,variable misuse,0,15,1
+JavaScript/148,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,17,1
+JavaScript/149,js,llama3.1:8b,missing logic,incorrect output,excess logic,0,11,1
+JavaScript/150,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,8,1
+JavaScript/151,js,llama3.1:8b,missing logic,incorrect output,value misuse,0,11,1
+JavaScript/152,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,7,1
+JavaScript/153,js,llama3.1:8b,missing logic,incorrect output,variable misuse,0,17,1
+JavaScript/154,js,llama3.1:8b,value misuse,incorrect output,excess logic**,0,17,1
+JavaScript/155,js,llama3.1:8b,missing logic,incorrect output,variable misuse,0,12,1
+JavaScript/156,js,llama3.1:8b,missing logic,infinite loop,variable misuse,0,16,1
+JavaScript/157,js,llama3.1:8b,missing logic,incorrect output,operator misuse,0,3,1
+JavaScript/158,js,llama3.1:8b,missing logic,incorrect output,missing logic,1,15,1
+JavaScript/159,js,llama3.1:8b,excess logic,incorrect output,value misuse,0,6,1
+JavaScript/160,js,llama3.1:8b,excess logic,incorrect output,excess logic,1,28,1
+JavaScript/161,js,llama3.1:8b,missing logic,incorrect output,variable misuse**,0,23,1
+JavaScript/162,js,llama3.1:8b,function misuse,incorrect output,value misuse,0,5,0
+JavaScript/163,js,llama3.1:8b,value misuse,incorrect output,value misuse,1,14,1
