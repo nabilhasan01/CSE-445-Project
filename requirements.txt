@@ -6,3 +6,5 @@ docker
 ollama
 python-dotenv
 seaborn
+numpy
+scipy
